@@ -1,0 +1,153 @@
+@import './import/base.less';
+
+#accomplishment {
+	height: 150px;
+
+	#cover {
+		height: 130px;
+		position: relative;
+		overflow:hidden;
+		img {
+			width: 100%;
+		}
+	}
+
+	#info {
+		position: relative;
+		top: -65px;
+		left: 10px;
+
+		#profile {
+			display: inline-block;
+			width: 200px;
+			> div {
+				display: inline-block;
+			}
+
+			#profile-img {
+				padding: 5px;
+				background-color: @main-color;
+				img {
+					height: 75px;
+					width: 75px;
+				}
+			}
+		}
+
+		#counter {
+			float: right;
+			margin: 10px;
+
+			dl {
+				margin: 0;
+				.round(50%);
+				.opacity(80);
+				height: 80px;
+				width: 80px;
+				display: inline-block;
+				background-color: darken(@main-color, 10%);
+
+				dt {
+					margin-top: 15px;
+					font-weight: bold;
+					text-align: center;
+					display: block;
+				}
+
+				dd {
+					font-weight: bold;
+					margin: 0;
+					text-align: center;
+					display: block;
+				}
+			}
+		}
+
+	}
+}
+
+#from-recommend {
+	a.btn {
+		margin-top: 10px;
+		.pull-right;
+	}
+
+	#recipes {
+		.column(12);
+
+		a {
+			text-decoration: none;
+			color: black;
+		}
+
+		#main-recipe {
+			.column(7);
+			height: 210px;
+		}
+
+		#sub-recipes {
+			.column(5);
+			height: 210px;
+
+			.recipe {
+				height: 70px;
+			}
+		}
+
+		.recipe {
+			height: 100%;
+
+			h3 {
+				position: relative;
+				line-height: 30px;
+				top: -40px;
+				left: 10px;
+				margin: 0;
+				padding: 0;
+				color: white;
+				text-shadow: 1px 1px 3px #000;
+			}
+
+			img{
+				height: 100%;
+				overflow:hidden;
+			}
+		}
+	}
+}
+
+#from-material {
+	#graph {
+		.column(4);
+
+		canvas {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	#materials {
+		.column(8);
+
+		a.material {
+			.round();
+			.column(3);
+			height: 50px;
+			margin-bottom: 10px;
+			text-align: center;
+			background-color: darken(@main-color, 10%);
+			text-decoration: none;
+
+			p {
+				margin: 0;
+				width: 100%;
+				color: black;
+				line-height: 50px;
+			}
+		}
+	}
+
+	p {
+		text-align: center;
+	}
+}

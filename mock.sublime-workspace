@@ -1,0 +1,658 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"hea",
+				"header	<header>"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"ti",
+				"title	<title>"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ex",
+				"examlicense"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"ques",
+				"questionNum"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "html/index.html",
+			"settings":
+			{
+				"buffer_size": 1771,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "asset/less/index.less",
+			"settings":
+			{
+				"buffer_size": 1467,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "asset/less/button.less",
+			"settings":
+			{
+				"buffer_size": 946,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "asset/less/base.less",
+			"settings":
+			{
+				"buffer_size": 944,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "asset/less/opacity.less",
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "asset/less/round.less",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"set haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"html2",
+				"HTML2Haml: Convert file"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"PACKAGE",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Users/01002552/Desktop/mock/asset/less/grid.less",
+		"/D/Users/01002552/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/Users/01002552/Desktop/mock/asset/less/index.less",
+		"/D/Users/01002552/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/D/Users/01002552/Desktop/mock/asset/less/default.less",
+		"/D/Users/01002552/Desktop/opacity.less",
+		"/D/Users/01002552/Desktop/button.less",
+		"/D/Users/01002552/Desktop/round.less",
+		"/D/Users/01002552/Desktop/grid.less",
+		"/D/Users/01002552/Desktop/index.less",
+		"/D/Users/01002552/Desktop/default.less",
+		"/D/Users/01002552/Desktop/base.less",
+		"/D/Users/01002552/Desktop/normalize.css",
+		"/D/Users/01002552/Desktop/sample.html",
+		"/D/Users/01002552/Desktop/less.js",
+		"/D/Users/01002552/Desktop/sample.scss",
+		"/D/Users/01002552/Desktop/sample.html.haml",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/sekigime/index.html",
+		"/D/Users/01002552/Desktop/sample.css",
+		"/D/Users/01002552/Desktop/sample.sass",
+		"/D/Users/01002552/Desktop/sa.html",
+		"/D/Users/01002552/Desktop/勝ちパターン",
+		"/D/Users/01002552/Desktop/original.xml",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/sekigime/css/sekigime.css",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/sekigime/js/sekigime.js",
+		"/D/Users/01002552/Desktop/13_知識編総合演習/yasui.sql",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/Catalina/localhost/yasui.xml",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_DB課題/INSERT.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_DB課題/CREATE TABLE.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_DB課題/AVG.sql",
+		"/D/Users/01002552/Desktop/twitter_create.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_DB課題/SUM.sql",
+		"/D/Users/01002552/Desktop/13_知識編総合演習/createuser.sql",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/Catalina/localhost/examJdbc.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/Catalina/localhost/jdbc.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/Catalina/localhost/Twitter.xml",
+		"/D/Users/01002552/Desktop/JDBC/SimpleJdbc.xml",
+		"/D/Users/01002552/Desktop/JDBC/web.xml",
+		"/D/Users/01002552/Desktop/JDBC/HrDao.java",
+		"/D/Users/01002552/Desktop/JDBC/Employee.java",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/context.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/server.xml",
+		"/D/Users/01002552/Desktop/web.xml.bak",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/Catalina/localhost/BasicWebApp.xml",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/CREATE TABLE.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/SUM.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/AVG.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/INSERT.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/Q3.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/Q1.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/Q2.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/05_JDBC課題/Q4.sql",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/04_Java課題/2-3/Bootcamp.java",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/04_Java課題/2-2/Bootcamp.java",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/04_Java課題/2-1/Bootcamp.java",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/04_Java課題/2-1/BootcampTest.java",
+		"/D/Users/01002552/Desktop/jinja.html",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/02_HTML演習課題/index.html",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/02_HTML演習課題/styles.css",
+		"/R/2013年新人ブートキャンプ/02_課題/2.HTML/work/styles.css",
+		"/R/2013年新人ブートキャンプ/02_課題/2.HTML/work２/styles.css",
+		"/D/Users/01002552/Desktop/jinja.css",
+		"/D/Users/01002552/Desktop/index.html",
+		"/D/Users/01002552/Desktop/workspace/prototype/prototype.html",
+		"/D/Users/01002552/Desktop/workspace/test/test.js",
+		"/D/Users/01002552/Desktop/workspace/prototype/prototype.js",
+		"/D/Users/01002552/Desktop/gizzard-master/gizzard-master/src/main/scala/com/twitter/gizzard/GizzardServer.scala",
+		"/D/Users/01002552/Desktop/workspace/test/test.html",
+		"/D/Users/01002552/Desktop/test.js",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/03_JavaScript演習課題/heisei.html",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/03_JavaScript演習課題/mondai.js",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/03_JavaScript演習課題/three.js",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/03_JavaScript演習課題/heisei.js",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/04_Java課題/First.java",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/javascript/mondai.js",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/javascript/three.js",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/javascript/heisei.js",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/04_Java課題/Second.java",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/javascript/three.html",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/javascript/mondai.html",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/javascript/heisei.html",
+		"/R/2013年新人ブートキャンプ/04_成果物/19_(サキツイツキ)佐橘一旗/01_基礎演習/02_HTML演習課題/print.css",
+		"/D/Users/01002552/Desktop/研修素材/2.HTML/work/styles.css",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/mediaquery/index.html",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/mediaquery/css/over800.css",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/mediaquery/css/under640.css",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/mediaquery/css/over641.css",
+		"/D/Users/01002552/Desktop/研修素材/2.HTML/work/index.html",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/mediaquery/mediaquery.html",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/conf/httpd.conf",
+		"/D/Users/01002552/Desktop/capstoctrl.reg",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/js/sekigime.js",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/sekigime.html",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/sandbox/css/sekigime.css",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/web.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/tomcat-users.xml",
+		"/C/Program Files/Apache Software Foundation/Apache2.2/htdocs/index.html",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/Catalina/localhost/test.xml",
+		"/D/Users/01002552/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"space",
+			"message",
+			"e.message",
+			"color",
+			"padding",
+			"total-width",
+			"Naming",
+			"Function",
+			"function",
+			"console",
+			"seatgime",
+			"names",
+			"execone",
+			"\"",
+			"iso",
+			"ISO",
+			"char",
+			"ippatsu",
+			"seats",
+			"zanSeat",
+			"seatsuu",
+			"\"",
+			"INSERT ",
+			"\\n",
+			"INSERT ",
+			"\\}",
+			"\\{",
+			"{",
+			"\"",
+			"\\t",
+			"seat",
+			"seki",
+			"\\t",
+			"aside",
+			"footer",
+			"#footer",
+			"footer",
+			"aside",
+			"limit",
+			"heisei",
+			"heisei.interface",
+			"w",
+			"aside",
+			"div\\scclass\\=\\\"article\\\"",
+			"div\\sid\\=\\\"article\\\"",
+			"article",
+			">\n",
+			"nameId",
+			"zanseki",
+			"8443",
+			"mod_proxy_ajp",
+			"ば",
+			"あばば",
+			"うんち",
+			"ほげもげ"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"oneShot",
+			"seats",
+			"seatNum",
+			"'",
+			"",
+			";\\n",
+			"",
+			"\\)",
+			"\\(",
+			"(",
+			"",
+			" ",
+			"seat",
+			"> ",
+			"article",
+			"inputAreaId",
+			"seki"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/index.html",
+					"settings":
+					{
+						"buffer_size": 1771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1135,
+								1135
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "asset/less/index.less",
+					"settings":
+					{
+						"buffer_size": 1467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								956,
+								956
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 590.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "asset/less/button.less",
+					"settings":
+					{
+						"buffer_size": 946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "asset/less/base.less",
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "asset/less/opacity.less",
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "asset/less/round.less",
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 86.0,
+	"status_bar_visible": true
+}

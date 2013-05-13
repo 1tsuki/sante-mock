@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+h1 {
+  font-size: 25px;
+  margin: 0;
+}
+h2 {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-left: 5px solid #000000;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 1px 0 #ffffff;
+  -webkit-box-shadow: 0 1px 0 #ffffff;
+  moz-box-shadow: 0 1px 0 #ffffff;
+  color: #333333;
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0 0 10px;
+  padding: 0 0 0 5px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.pull-right {
+  float: right;
+}
+legend {
+  font-size: 1.3em;
+}
+.input-small {
+  display: inline;
+  float: left;
+  width: 270px;
+  margin: 0 5px;
+}
+.input-middle {
+  display: inline;
+  float: left;
+  width: 550px;
+  margin: 0 5px;
+}
+.input-large {
+  display: inline;
+  float: left;
+  width: 830px;
+  margin: 0 5px;
+}
+.control-group {
+  vertical-align: middle;
+}
+.control-group .control-label {
+  display: inline;
+  float: left;
+  width: 200px;
+  margin: 0 5px;
+  margin-left: 75px;
+}
+.control-group .controls {
+  display: inline;
+  float: left;
+  width: 550px;
+  margin: 0 5px;
+}
+.control-group .controls .help-block {
+  display: inline;
+  float: left;
+  width: 830px;
+  margin: 0 5px;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  font-size: 0.8em;
+}
+.form-actions {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 830px;
+  margin: 0 5px;
+  padding-left: 285px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}

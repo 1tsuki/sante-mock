@@ -1,0 +1,54 @@
+@import './import/base.less';
+
+#recommended-recipes {
+	#control {
+		height: 50px;
+		#sort-menu {
+			.column(4);
+			.push(8);
+			position: relative;
+			top: -60px;
+			.sort {
+				.column(6);
+				.round();
+				text-align: center;
+				display: inline-block;
+				height: 30px;
+				line-height: 30px;
+				background-color: darken(@main-color, 20%);
+			}
+		}
+
+		#materials {
+			margin-left: 30px;
+			position: relative;
+			top: -40px;
+			label {
+				font-weight: bold;
+			}
+
+			.material {
+				display: inline-block;
+			}
+		}
+	}
+
+	#recipes {
+		#recipe {
+			.round();
+			padding: 10px;
+			height: 200px;
+			margin-bottom: 10px;
+			background-color: darken(@main-color, 10%);
+
+			img {
+				.column(4);
+				height: 100%;
+			}
+
+			h2 {
+				.column(8);
+			}
+		}
+	}
+}
