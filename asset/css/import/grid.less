@@ -6,12 +6,6 @@
 @total-width: @gridsystem-width;
 
 .clearfix() {
-  *zoom:1;
-
-  &:before, &:after {
-    content:"";
-    display:table;
-  }
   &:after {
     clear:both;
   }
@@ -22,18 +16,16 @@ body {
   .clearfix;
 }
 
-.row(@columns:@columns) {
-  display: block;
-  width: @total-width*((@gutter-width + @gridsystem-width)/@gridsystem-width);
-  margin: 0 @total-width*(((@gutter-width*.5)/@gridsystem-width)*-1);
-  .clearfix;
-}
-
 .column(@x,@columns:@columns) {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
   margin: 0 @total-width*((@gutter-width*.5)/@gridsystem-width);
+
+  .clearfix;
 }
 
 .push(@offset:1,@padding:false) when (@padding = true) {

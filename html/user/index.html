@@ -10,22 +10,26 @@
       $(document).ready(function() {
         var params = ["乳", "卵", "肉", "豆", "菜", "果", "藻", "穀", "芋", "油", "糖"];
         var items = [
-          ["現在", 0.8,0.8,0.7,0.88,0.25,0.90,1.2,0.9,0.5,0.7,0.9],
-          ["その後", 0.8,0.8,0.7,0.88,0.25,0.90,1.5,0.1,0.3,0.5,0.7],
+          ["", 1,0.8,0.7,0.88,0.25,0.90,1,0.9,0.5,0.7,0.9],
+          // ["目標値", 0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8],
         ];
 
-        radarGraph.interface.init('#sidebar-graph', params, 360/params.length/2);
+        radarGraph.interface.init('#radar-graph', params, 360/params.length/2);
+        radarGraph.interface.setSize(220,220);
+        radarGraph.interface.setBackgroundColor([
+          [1, 4, "rgba(255,0,0,0.2)"],
+          [5, 7, "rgba(0,255,0,0.2)"],
+          [8, 11, "rgba(255,255,0,0.2)"]
+        ]);
         radarGraph.interface.setItems(items);
+        radarGraph.interface.draw();
 
-        radarGraph.interface.init('#material-graph', params, 360/params.length/2);
-        radarGraph.interface.setItems(items);
       });
     </script>
 
   </head>
 
   <body>
-    <!-- <img class="background-image" src="../../asset/img/topimage-blur.jpg"> -->
 
     <header>
       <section id="header">
@@ -42,136 +46,117 @@
     </header>
 
     <div id="wrapper">
-      <div id='content'>
-        <section id="accomplishment">
-          <div id="cover">
-            <img src="../../asset/img/flower.jpg">
+      <section id="accomplishment">
+        <div id="cover">
+          <img src="../../asset/img/flower.jpg">
+        </div>
+        <div id="info">
+          <div id="profile">
+            <div id="profile-img">
+              <img src="../../asset/img/profile.jpg">
+            </div>
+            <div id="profile-name">
+              <p>Username</p>
+            </div>
           </div>
-          <div id="info">
-            <div id="profile">
-              <div id="profile-img">
-                <img src="../../asset/img/profile.jpg">
+          <div id="counter">
+            <dl>
+              <dt>1024回</dt>
+              <dd>自炊数</dd>
+            </dl>
+            <dl>
+              <dt>5日</dt>
+              <dd>連続自炊</dd>
+            </dl>
+            <dl>
+              <dt>80%</dt>
+              <dd>バランス</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <aside id="graph">
+        <label>あなたの栄養バランス</label>
+        <canvas id="radar-graph"></canvas>
+        <a href="./nutrient/detail.html" class="btn btn-primary">詳細を見る</a>
+      </aside>
+
+      <section id="from-recommend">
+        <h2>あなたに合わせたおすすめレシピ</h2>
+        <div id="recipes">
+          <div id="main-recipe">
+            <a href="./recipe/detail.html">
+              <div class="recipe">
+                <img src="../../asset/img/sample_food.jpg">
+                <h3>料理名</h3>
               </div>
-              <div id="profile-name">
-                <p>Username</p>
+            </a>
+          </div>
+
+          <div id="sub-recipes">
+            <a href="./recipe/detail.html">
+              <div class="recipe">
+                <img src="../../asset/img/sample_food.jpg">
+                <h3>料理名</h3>
               </div>
-            </div>
-            <div id="counter">
-              <dl>
-                <dt>1024回</dt>
-                <dd>自炊数</dd>
-              </dl>
-              <dl>
-                <dt>5日</dt>
-                <dd>連続自炊</dd>
-              </dl>
-              <dl>
-                <dt>80%</dt>
-                <dd>バランス</dd>
-              </dl>
-            </div>
-          </div>
-        </section>
-
-        <section id="from-recommend">
-          <h2>あなたに合わせたおすすめレシピ</h2>
-          <div id="recipes">
-            <div id="main-recipe">
-              <a href="./recipe/detail.html">
-                <div class="recipe">
-                  <img src="../../asset/img/sample_food.jpg">
-                  <h3>料理名</h3>
-                </div>
-              </a>
-            </div>
-
-            <div id="sub-recipes">
-              <a href="./recipe/detail.html">
-                <div class="recipe">
-                  <img src="../../asset/img/sample_food.jpg">
-                  <h3>料理名</h3>
-                </div>
-              </a>
-              <a href="./recipe/detail.html">
-                <div class="recipe">
-                  <img src="../../asset/img/sample_food.jpg">
-                  <h3>料理名</h3>
-                </div>
-              </a>
-              <a href="./recipe/detail.html">
-                <div class="recipe">
-                  <img src="../../asset/img/sample_food.jpg">
-                  <h3>料理名</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-          <a href="./recipe/list.html" class="btn btn-primary">もっと見る</a>
-        </section>
-
-
-        <section id="from-material">
-          <h2>不足している食材から選ぶ</h2>
-          <div id="graph">
-            <canvas id="material-graph"></canvas>
-          </div>
-          <div id="materials">
-            <a class="material" href="./recipe/list.html">
-              <p>乳製品</p>
             </a>
-            <a class="material" href="./recipe/list.html">
-              <p>卵</p>
+            <a href="./recipe/detail.html">
+              <div class="recipe">
+                <img src="../../asset/img/sample_food.jpg">
+                <h3>料理名</h3>
+              </div>
             </a>
-            <a class="material" href="./recipe/list.html">
-              <p>魚類</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>肉類</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>豆類</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>野菜</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>イモ類</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>海藻・きのこ</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>穀物</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>甘味</p>
-            </a>
-            <a class="material" href="./recipe/list.html">
-              <p>果物</p>
+            <a href="./recipe/detail.html">
+              <div class="recipe">
+                <img src="../../asset/img/sample_food.jpg">
+                <h3>料理名</h3>
+              </div>
             </a>
           </div>
-          <p>最近不足している食材が強調表示されています</p>
-        </section>
-      </div>
+        </div>
+        <a href="./recipe/list.html" class="btn btn-primary">もっと見る</a>
+      </section>
 
-      <section id='sidebar'>
-        <aside>
-          <label>操作一覧</label>
-          <ul>
-            <li><a href="">食事履歴</a></li>
-            <li><a href="">お気に入りレシピ</a></li>
-            <li><a href="">つかいかた</a></li>
-          </ul>
-        </aside>
-        <aside>
-          <label>栄養バランス表</label>
-          <canvas id="sidebar-graph"></canvas>
-          <a href="./nutrient/detail.html" class="btn btn-primary">詳細を見る</a>
-        </aside>
-        <aside>
-          <label>広告</label>
-          <img src="../../asset/img/ad.jpg">
-        </aside>
+
+      <section id="from-material">
+        <h2>体に不足している食材から選ぶ</h2>
+        <div id="materials">
+          <a class="material" href="./recipe/list.html">
+            <p>乳製品</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>卵</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>魚類</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>肉類</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>豆類</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>野菜</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>イモ類</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>海藻・茸</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>穀物</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>甘味</p>
+          </a>
+          <a class="material" href="./recipe/list.html">
+            <p>果物</p>
+          </a>
+        </div>
+        <p>最近不足している食材が強調表示されています</p>
       </section>
 
       <footer>

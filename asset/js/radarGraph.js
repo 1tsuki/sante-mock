@@ -9,23 +9,48 @@ if(!window.radarGraph) radarGraph = {};
 	var round = m.round;
 
 	// prefix values
-	var fontsize = 13;
-	var colormap = ['rgba(192, 80, 77, 0.3)', 'rgba(80, 77, 192, 0.3)', 'rgba(77, 192, 80, 0.3)'];
+	var fontsize = 17;
+	var colormap = ['rgba(80, 77, 192, 0.8)', 'rgba(192, 80, 77, 0.8)', 'rgba(77, 192, 80, 0.8)'];
 	var auxlineNum = 5;
 
+	// variables
 	var canvas;
 	var ctx;
 	var width;
 	var height;
 	var radius;
+	var radDiv;
+	var radOffset;
 	var baseLine;
 	var centerX;
 	var centerY;
 	var offsetAngle;
 	var params;
 	var items;
+	var backgroundColors;
 
 	var privateMethods = {
+		initVariables: function() {
+			ctx = canvas.getContext('2d');
+			ctx.font = fontsize + "px 'ＭＳ Ｐゴシック'";
+			width = canvas.width;
+			height = canvas.height;
+			radius = (width < height) ? width/2-fontsize : height/2-fontsize;
+			radDiv = pi*2/params.length;
+			radOffset = (typeof offsetAngle !== "undefined") ? offsetAngle*pi/180-pi/2 : -pi/2;
+			centerX = radius+fontsize;
+			centerY = radius+fontsize;
+			baseLine = radius;
+		},
+
+		drawGraph: function() {
+			privateMethods.drawOutline(radDiv, radOffset, params);
+			privateMethods.drawGridline(radDiv, radOffset, params);
+			privateMethods.drawLabel(radDiv, radOffset, params);
+			privateMethods.drawBackgroundColors();
+			privateMethods.drawItems();
+		},
+
 		darken: function(color, factor) {
 			var newColor = "rgba(";
 
@@ -62,19 +87,8 @@ if(!window.radarGraph) radarGraph = {};
 			return newColor;
 		},
 
-		initVariables: function() {
-			ctx = canvas.getContext('2d');
-			ctx.font = fontsize + "px 'ＭＳ Ｐゴシック'";
-			width = canvas.width;
-			height = canvas.height;
-			radius = (width < height) ? width/2-fontsize : height/2-fontsize;
-			centerX = width/2;
-			centerY = radius+fontsize;
-			baseLine = radius*0.8;
-		},
-
-		drawOutline: function(radDiv, radOffset) {
-			ctx.fillStyle= "rgba(0, 0, 0, 0.1)";
+		drawOutline: function() {
+			ctx.fillStyle= "rgba(150, 150, 150, 1)";
 
 			ctx.beginPath();
 			ctx.moveTo(centerX+cos(radOffset)*radius, centerY+sin(radOffset)*radius);
@@ -88,7 +102,7 @@ if(!window.radarGraph) radarGraph = {};
 			ctx.fill();
 		},
 
-		drawGridline: function(radDiv, radOffset) {
+		drawGridline: function() {
 			ctx.lineWidth = 1;
 			ctx.strokeStyle= "rgba(0,0,0,0.2)";
 
@@ -96,7 +110,7 @@ if(!window.radarGraph) radarGraph = {};
 			privateMethods.drawHorizontalGridLines(radDiv, radOffset);
 		},
 
-		drawVerticalGridLines: function(radDiv, radOffset) {
+		drawVerticalGridLines: function() {
 			// vertical lines
 			for(var i=0; i<params.length; i++) {
 				var rad = radDiv*i+radOffset;
@@ -110,7 +124,7 @@ if(!window.radarGraph) radarGraph = {};
 			}
 		},
 
-		drawHorizontalGridLines: function(radDiv, radOffset) {
+		drawHorizontalGridLines: function() {
 			// horizontal lines
 			for(var i=1; i<auxlineNum; i++) {
 				var factor = i/auxlineNum;
@@ -127,8 +141,8 @@ if(!window.radarGraph) radarGraph = {};
 			}
 		},
 
-		drawLabel: function(radDiv, radOffset) {
-			ctx.fillStyle= "rgba(0,0,0,0.9)";
+		drawLabel: function() {
+			ctx.fillStyle= "rgba(0,0,0,1)";
 
 			ctx.moveTo(centerX+cos(radOffset)*radius, centerY+sin(radOffset)*radius);
 			for(var i=0; i<params.length; i++) {
@@ -149,21 +163,27 @@ if(!window.radarGraph) radarGraph = {};
 		},
 
 		drawInfo: function() {
+			if(width > height) {
+				privateMethods.drawInfoOnSide();
+			} else {
+				privateMethods.drawInfoOnBottom();
+			}
+		},
+
+		drawInfoOnSide: function() {
+			for(var i=0; i<items.length; i++) {
+				ctx.fillStyle = privateMethods.darken(colormap[i], 1.5);
+				ctx.fillText(items[i][0], (radius+fontsize)*2+fontsize, centerY - fontsize*items.length + fontsize*(i+1)*2);
+			}
+		},
+
+		drawInfoOnBottom: function() {
 			var unit = width / items.length;
 			for(var i=0; i<items.length; i++) {
 				ctx.textAlign = "center";
 				ctx.fillStyle = privateMethods.darken(colormap[i], 1.5);
 				ctx.fillText(items[i][0], unit*(i+0.5), (radius+fontsize)*2 + fontsize*2);
 			}
-		},
-
-		drawGraph: function() {
-			var radDiv = pi*2/params.length;
-			var radOffset = (typeof offsetAngle !== "undefined") ? offsetAngle*pi/180-pi/2 : -pi/2;
-
-			privateMethods.drawOutline(radDiv, radOffset, params);
-			privateMethods.drawGridline(radDiv, radOffset, params);
-			privateMethods.drawLabel(radDiv, radOffset, params);
 		},
 
 		drawItems: function() {
@@ -195,55 +215,78 @@ if(!window.radarGraph) radarGraph = {};
 			ctx.closePath();
 			ctx.fill();
 			ctx.stroke();
+		},
+
+		drawBackgroundColors: function() {
+			if(typeof backgroundColors !== "undefined") {
+				for(var i=0; i<backgroundColors.length; i++) {
+					privateMethods.drawBackgroundColor(
+						backgroundColors[i][0],
+						backgroundColors[i][1],
+						backgroundColors[i][2]
+					);
+				}
+			}
+		},
+
+		drawBackgroundColor: function(startKey, endKey, color) {
+			var radDiv = pi*2/(params.length);
+			var radOffset = (typeof offsetAngle !== "undefined") ? offsetAngle*pi/180-pi/2 : -pi/2;
+
+			var startAngle = radDiv*(startKey-1) + radOffset - radDiv/2;
+			var endAngle = radDiv*(endKey-1) + radOffset + radDiv/2;
+
+			ctx.fillStyle = color;
+			ctx.beginPath();
+			ctx.moveTo(centerX, centerY);
+			ctx.arc(centerX, centerY, radius+fontsize, startAngle, endAngle, false);
+			ctx.fill();
 		}
-	}
+	};
 
 	radarGraph.interface = {
 		init: function(_id, _params, _offsetAngle) {
 			// get canvas
 			canvas = $(_id)[0];
-			canvas.width = 200;
-			canvas.height = 250;
+			canvas.width = 250;
+			canvas.height = 200;
 			params = _params;
 			offsetAngle = _offsetAngle;
 
 			privateMethods.initVariables();
-			radarGraph.interface.draw();
 		},
 
 		draw: function() {
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
 			privateMethods.drawGraph();
-			privateMethods.drawItems();
 		},
 
 		setSize: function(_width, _height) {
 			canvas.width = _width;
 			canvas.height = _height;
 			privateMethods.initVariables();
-
-			radarGraph.interface.draw();
 		},
 
 		setFontsize: function(_fontsize) {
 			fontsize = _fontsize;
 			ctx.font = fontsize + "px 'ＭＳ Ｐゴシック'";
-			radarGraph.interface.draw();
-		},
-
-		setColormap: function(_colormap) {
-			colormap = _colormap;
-			radarGraph.interface.draw();
 		},
 
 		setAuxlineNum: function(_auxlineNum) {
 			auxlineNum = _auxlineNum;
-			radarGraph.interface.draw();
 		},
 
 		setOffsetAngle: function(_offsetAngle) {
 			offsetAngle = offsetAngle;
-			radarGraph.interface.draw();
+		},
+
+		setColormap: function(_colormap) {
+			colormap = _colormap;
+		},
+
+		setBackgroundColor: function(_backgroundColors) {
+			backgroundColors = _backgroundColors;
+			privateMethods.drawBackgroundColors();
 		},
 
 		setParams: function(_params) {
@@ -258,7 +301,6 @@ if(!window.radarGraph) radarGraph = {};
 			}
 
 			items = _items;
-			radarGraph.interface.draw();
 		}
 	};
 })(window, $);

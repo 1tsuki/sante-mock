@@ -2,11 +2,6 @@ body {
   width: 100%;
   *zoom: 1;
 }
-body:before,
-body:after {
-  content: "";
-  display: table;
-}
 body:after {
   clear: both;
 }
@@ -55,47 +50,137 @@ legend {
   font-size: 1.3em;
 }
 .input-small {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: 270px;
   margin: 0 5px;
+  *zoom: 1;
+}
+.input-small:after {
+  clear: both;
+}
+.input-small:before,
+.input-small:after {
+  content: "";
+  display: table;
+}
+.input-small:after {
+  clear: both;
 }
 .input-middle {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: 550px;
   margin: 0 5px;
+  *zoom: 1;
+}
+.input-middle:after {
+  clear: both;
+}
+.input-middle:before,
+.input-middle:after {
+  content: "";
+  display: table;
+}
+.input-middle:after {
+  clear: both;
 }
 .input-large {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: 830px;
   margin: 0 5px;
+  *zoom: 1;
+}
+.input-large:after {
+  clear: both;
+}
+.input-large:before,
+.input-large:after {
+  content: "";
+  display: table;
+}
+.input-large:after {
+  clear: both;
 }
 .control-group {
   vertical-align: middle;
 }
 .control-group .control-label {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: 200px;
   margin: 0 5px;
+  *zoom: 1;
   margin-left: 75px;
 }
+.control-group .control-label:after {
+  clear: both;
+}
+.control-group .control-label:before,
+.control-group .control-label:after {
+  content: "";
+  display: table;
+}
+.control-group .control-label:after {
+  clear: both;
+}
 .control-group .controls {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: 550px;
   margin: 0 5px;
+  *zoom: 1;
+}
+.control-group .controls:after {
+  clear: both;
+}
+.control-group .controls:before,
+.control-group .controls:after {
+  content: "";
+  display: table;
+}
+.control-group .controls:after {
+  clear: both;
 }
 .control-group .controls .help-block {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline;
   float: left;
   width: 830px;
   margin: 0 5px;
+  *zoom: 1;
   margin: 0 0 5px 0;
   padding: 5px;
   font-size: 0.8em;
+}
+.control-group .controls .help-block:after {
+  clear: both;
+}
+.control-group .controls .help-block:before,
+.control-group .controls .help-block:after {
+  content: "";
+  display: table;
+}
+.control-group .controls .help-block:after {
+  clear: both;
 }
 .form-actions {
   -moz-box-sizing: border-box;
@@ -105,10 +190,22 @@ legend {
   float: left;
   width: 830px;
   margin: 0 5px;
+  *zoom: 1;
   padding-left: 285px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
+}
+.form-actions:after {
+  clear: both;
+}
+.form-actions:before,
+.form-actions:after {
+  content: "";
+  display: table;
+}
+.form-actions:after {
+  clear: both;
 }
