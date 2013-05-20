@@ -1,0 +1,54 @@
+@import './import/base.less';
+
+h1 {
+	.h-decoration(@font-large);
+}
+
+h2 {
+	.h-decoration(@font-medium);
+}
+
+.modify {
+	.graph {
+		.column(12);
+		canvas {
+			display: block;
+			margin: 0 auto;
+			width: 400px;
+			height: 200px;
+		}
+	}
+
+	.easy-input {
+		.column(12);
+
+		.easy-input-control {
+			.column(10);
+			.push(1);
+			padding: 10px;
+			input {
+				font-size: @font-medium;
+			}
+		}
+	}
+
+	.detail-input {
+		.column(12);
+		.input-fields {
+			.column(6);
+
+			.field {
+				.label {
+					.column(3);
+					.push(2);
+				}
+			}
+		}
+		.submit {
+			.column(12);
+			input {
+				.pull-right;
+			}
+		}
+	}
+}

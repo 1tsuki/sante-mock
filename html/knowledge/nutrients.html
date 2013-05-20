@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>santé</title>
+    <link href="../../asset/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../../asset/css/knowledge.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../../asset/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../asset/js/pieGraph.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var params = ["乳", "卵", "肉", "豆", "菜", "果", "藻", "穀", "芋", "油", "糖"];
+        var items = [
+          ["摂取量", 1,0.8,0.6,0.4,0.6,0.8,1,0.8,1,0.2,0.4],
+        ];
+
+        pieGraph.interface.init(".sidebar-graph", params, items);
+        pieGraph.interface.setSize(180,180);
+        pieGraph.interface.setAuxlineNum(10);
+        pieGraph.interface.draw();
+      });
+    </script>
+  </head>
+
+    <header>
+      <section id="header">
+        <div class="header-inner">
+          <div class="header-logo">
+            <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
+          </div>
+          <div class="header-control">
+            <ul>
+              <li>
+                <a href="../log/monthly.html">
+                  <i></i>
+                  調理履歴
+                </a>
+              </li>
+              <li>
+                <a href="../recipe/favorite.html">
+                  <i></i>
+                  お気に入り
+                </a>
+              </li>
+              <li>
+                <a href="../../howto.html">
+                  <i></i>
+                  つかいかた
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="header-dummy"></div>
+    </header>
+
+    <div id="wrapper">
+      <div id="content">
+        <section class="knowledges">
+          <section class="index">
+            <h2>コンテンツ一覧</h2>
+            <ul>
+              <li><a href="#">栄養状態グラフ</a></li>
+              <li><a href="#">三色食品群</a></li>
+              <li><a href="#">基礎食品群</a></li>
+            </ul>
+          </section>
+          <section class="description">
+            <h1>栄養状態グラフについて</h1>
+          </section>
+        </section>
+      </div>
+
+
+        <section id="sidebar">
+          <aside>
+            <h1>栄養バランス表</h1>
+            <canvas class="sidebar-graph"></canvas>
+            <a href="../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
+          </aside>
+          <aside>
+            <label>広告</label>
+            <img alt="広告" src="../../asset/img/ad.jpg">
+          </aside>
+        </section>
+      </section>
+
+      <footer>
+        <ul>
+          <li><a>運営会社</a></li>
+          <li><a>個人情報保護方針</a></li>
+          <li><a>利用規約</a></li>
+          <li><a>お問い合わせ</a></li>
+        </ul>
+      </footer>
+
+    </div>
+  </body>
+</html>

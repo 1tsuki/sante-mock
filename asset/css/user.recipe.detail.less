@@ -1,26 +1,26 @@
 @import './import/base.less';
 
-#recipe {
-	#title {
-		h1.recipe-title {
-			.column(7.5);
-			display:inline-block;
-			font-size: 2em;
+h2 {
+	.h-decoration(@font-medium);
+}
+
+.recipe-detail {
+	.title {
+		.recipe-title {
+			.column(8);
+			font-size: @font-huge;
 		}
 
 		.control {
-			.column(1.5);
-			display:inline-block;
+			.column(4);
 			a {
-				.border-box;
-				width: 100%;
-				.pull-right;
+				.column(4);
 			}
 		}
 	}
 
-	#image {
-		.column(7);
+	.image {
+		.column(8);
 		height: 350px;
 		overflow: hidden;
 
@@ -29,50 +29,28 @@
 		}
 	}
 
-	#materials {
-		.column(5);
+	.materials {
+		.column(4);
 		margin-bottom: 20px;
 
 		.material {
 			.column(12);
-			margin-left: 10px;
-			padding: 0 5px;
-			p {
-				display: inline-block;
-			}
+			padding: 2px 5px;
 
 			.material-name {
+				display: inline-block;
 				margin: 0;
 			}
 
 			.material-quantity {
+				display: inline-block;
 				margin: 0;
 				.pull-right;
 			}
 		}
 	}
 
-	#controls {
-		.column(4);
-		margin-bottom: 10px;
-
-		h3 {
-			margin: 0;
-			font-size: 15px;
-		}
-
-		.control {
-			.column(4);
-			display: inline-block;
-
-			a {
-				.border-box;
-				width: 100%;
-			}
-		}
-	}
-
-	#procedures {
+	.procedures {
 		.column(12);
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -90,19 +68,40 @@
 		}
 
 		.complete {
-			.column(3);
-			margin: 0;
-			padding: 0;
-			display: table-cell;
-			vertical-align: middle;
 			text-align: center;
 
 			a {
+				.round();
 				display: block;
 				line-height: 150px;
 				text-decoration: none;
 				color: white;
+				.background-gradient(@orange);
 			}
 		}
+	}
+}
+
+.recommend {
+	.recipe {
+		.column(3);
+
+		a {
+			display: block;
+			width: 100%;
+			height: 100%;
+
+			img {
+				width: 100%;
+			}
+
+			&:hover {
+				background-color: darken(@main-color, 10%);
+			}
+		}
+	}
+
+	a.btn {
+		.pull-right;
 	}
 }

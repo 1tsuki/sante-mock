@@ -1,26 +1,19 @@
 @import './functions.less';
+@import './grid.less';
 
-h1 {
-	font-size: 25px;
-	margin: 0;
+fieldset {
+	width: 80%;
+	margin: 10px auto;
 }
 
-h2 {
-	-moz-border-bottom-colors: none;
-	-moz-border-left-colors: none;
-	-moz-border-right-colors: none;
-	-moz-border-top-colors: none;
-	border-left: 5px solid rgba(0, 0, 0, 1);
-	border-bottom: 1px solid rgba(0, 0, 0, 1);
-	.box-shadow(0 1px 0, rgba(255, 255, 255, 1));
-	color: #333333;
-	display: block;
-	font-size: 22px;
-	line-height: 30px;
-	margin: 0 0 10px;
-	padding: 0 0 0 5px;
+.background-image {
+	min-height: 100%;
+	min-width: 1024px;
 	width: 100%;
-	.border-box;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .border-box {

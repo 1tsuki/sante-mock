@@ -1,3 +1,31 @@
+.h-decoration(@fontsize: 18px) {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-left: 5px solid rgba(0, 0, 0, 1);
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
+	.box-shadow(0 1px 0, rgba(255, 255, 255, 1));
+	color: #333333;
+	display: block;
+	font-weight: bold;
+	font-size: @fontsize;
+	line-height: 30px;
+	margin: 0 0 10px;
+	padding: 0 0 0 5px;
+	width: 100%;
+	.border-box;
+}
+
+.round-top(@corner:8px) {
+	border-top-left-radius: @corner;
+	border-top-right-radius: @corner;
+	border-top-left-radius: @corner;
+	border-top-right-radius: @corner;
+	-moz-border-radius-topleft: @corner;
+	-moz-border-radius-topright: @corner;
+}
+
 .round(@corner:8px) {
 	border-radius: @corner;
 	-webkit-border-radius: @corner;
@@ -19,7 +47,7 @@
 }
 
 .box() {
-	background-color: #fff;
+	background-color: .fff;
 	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
@@ -32,6 +60,16 @@
 }
 .box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
 	.box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+
+.background-gradient(@color) {
+	background-color: darken(@color, 3%);
+	background-image: -moz-linear-gradient(top, @color, darken(@color, 3%));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@color), to(darken(@color, 3%)));
+  background-image: -webkit-linear-gradient(top, lighten@color, darken(@color, 3%));
+  background-image: -o-linear-gradient(top, @color, darken(@color, 3%));
+  background-image: linear-gradient(to bottom, @color, darken(@color, 3%));
+  background-repeat: repeat-x;
 }
 
 .letter() {

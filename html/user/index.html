@@ -2,28 +2,31 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link href='../../asset/css/normalize.css' rel='stylesheet' type='text/css'>
-    <link href='../../asset/css/user.index.css' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="../../asset/js/radarGraph.js"></script>
+    <title>santé - トップページ</title>
+    <meta name="description" content="SEOTOOLSは、無料で使えるSEOツールを提供しております。御社のEコマースサイトのSEO対策に、SEOアクセス解析ツール、順位チェックツールをご利用下さい。">
+    <meta name="keywords" content="レシピ,健康,おすすめレシピ,健康レシピ,SEOツール">
+    <link href="../../asset/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../../asset/css/user.index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../../asset/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../asset/js/pieGraph.js"></script>
+    <script type="text/javascript" src="../../asset/js/fillMaterials.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        var params = ["乳", "卵", "肉", "豆", "菜", "果", "藻", "穀", "芋", "油", "糖"];
+        var params = ["乳", "卵", "肉", "豆", "菜", "果", "藻", "米", "芋", "油", "糖"];
         var items = [
-          ["", 1,0.8,0.7,0.88,0.25,0.90,1,0.9,0.5,0.7,0.9],
-          // ["目標値", 0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8],
+          ["摂取量", 1,0.8,0.6,0.4,0.6,0.8,1,0.8,1,0.6,0.4],
         ];
 
-        radarGraph.interface.init('#radar-graph', params, 360/params.length/2);
-        radarGraph.interface.setSize(220,220);
-        radarGraph.interface.setBackgroundColor([
-          [1, 4, "rgba(255,0,0,0.2)"],
-          [5, 7, "rgba(0,255,0,0.2)"],
-          [8, 11, "rgba(255,255,0,0.2)"]
-        ]);
-        radarGraph.interface.setItems(items);
-        radarGraph.interface.draw();
+        pieGraph.interface.init(".pie-graph", params, items);
+        pieGraph.interface.setDrawInfo(false);
+        pieGraph.interface.setSize(190,190);
+        pieGraph.interface.setAuxlineNum(10);
+        pieGraph.interface.draw();
 
+        var keys = ["#milk", "#egg", "#meat", "#bean", "#veg", "#fruit", "#mineral", "#crop", "#potato", "#fat", "#sugar"];
+        var values = [1, 0.8, 0.6, 0.4, 0.6, 0.8, 1, 0.8, 1, 0.6, 0.4];
+        var colors = ["red", "red", "red", "red", "green", "green", "green", "yellow", "yellow", "yellow", "yellow"];
+        fillMaterials.interface.fill(keys, values, colors);
       });
     </script>
 
@@ -33,40 +36,133 @@
 
     <header>
       <section id="header">
-        <div id="header-inner">
-          <div id="header-logo">
-            <a href="">santé</a><p>-自炊を楽しむすべての人に、健康的な料理生活を-</p>
+        <div class="header-inner">
+          <div class="header-logo">
+            <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
           </div>
-          <div id="header-control">
-            <a href="#">ログアウト</a>
+          <div class="header-control">
+            <ul>
+              <li>
+                <a href="./log/monthly.html">
+                  <i></i>
+                  調理履歴
+                </a>
+              </li>
+              <li>
+                <a href="./recipe/favorite.html">
+                  <i></i>
+                  お気に入り
+                </a>
+              </li>
+              <li>
+                <a href="../knowledge/nutrients.html">
+                  <i></i>
+                  栄養知識
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-      <div id="header-dummy"></div>
+      <div class="header-dummy"></div>
     </header>
 
     <div id="wrapper">
-      <section id="accomplishment">
-        <div id="cover">
-          <img src="../../asset/img/flower.jpg">
+      <section class="status">
+        <div class="cover">
+          <img alt="カバー画像" class="cover-img" src="../../asset/img/flower.png">
+          <div class="month">
+            <legend>May</legend>
+          </div>
+          <div class="calendar">
+            <table>
+              <thead>
+                <!-- <tr>
+                  <td colspan="8" class="calendar-title">自炊状況</td>
+                </tr> -->
+                <tr>
+                  <td class="calendar-title"></td>
+                  <th>日</th>
+                  <th>月</th>
+                  <th>火</th>
+                  <th>水</th>
+                  <th>木</th>
+                  <th>金</th>
+                  <th>土</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>第1週</td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                </tr>
+                <tr>
+                  <td>第2週</td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                </tr>
+                <tr>
+                  <td>第3週</td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                </tr>
+                <tr>
+                  <td>第4週</td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td><img alt="自炊した" src="../../asset/img/ng.png"></td>
+                  <td><img alt="自炊した" src="../../asset/img/check.gif"></td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>第5週</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div id="info">
-          <div id="profile">
-            <div id="profile-img">
-              <img src="../../asset/img/profile.jpg">
+        <div class="user-info">
+          <div class="profile">
+            <div class="profile-img">
+              <img alt="プロフィール画像" src="../../asset/img/profile.jpg">
             </div>
-            <div id="profile-name">
-              <p>Username</p>
+            <div class="profile-name">
+              <span>Username</span>
             </div>
           </div>
-          <div id="counter">
+          <div class="counter">
             <dl>
               <dt>1024回</dt>
-              <dd>自炊数</dd>
+              <dd>自炊回数</dd>
             </dl>
             <dl>
               <dt>5日</dt>
-              <dd>連続自炊</dd>
+              <dd>連続日数</dd>
             </dl>
             <dl>
               <dt>80%</dt>
@@ -76,87 +172,59 @@
         </div>
       </section>
 
-      <aside id="graph">
-        <label>あなたの栄養バランス</label>
-        <canvas id="radar-graph"></canvas>
-        <a href="./nutrient/detail.html" class="btn btn-primary">詳細を見る</a>
+      <aside class="graph">
+        <h2>あなたの栄養状態</h2>
+        <canvas class="pie-graph"></canvas>
+        <a href="../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
       </aside>
 
-      <section id="from-recommend">
+      <section class="recipes-wrapper">
         <h2>あなたに合わせたおすすめレシピ</h2>
-        <div id="recipes">
-          <div id="main-recipe">
-            <a href="./recipe/detail.html">
-              <div class="recipe">
-                <img src="../../asset/img/sample_food.jpg">
-                <h3>料理名</h3>
-              </div>
-            </a>
-          </div>
-
-          <div id="sub-recipes">
-            <a href="./recipe/detail.html">
-              <div class="recipe">
-                <img src="../../asset/img/sample_food.jpg">
-                <h3>料理名</h3>
-              </div>
-            </a>
-            <a href="./recipe/detail.html">
-              <div class="recipe">
-                <img src="../../asset/img/sample_food.jpg">
-                <h3>料理名</h3>
-              </div>
-            </a>
-            <a href="./recipe/detail.html">
-              <div class="recipe">
-                <img src="../../asset/img/sample_food.jpg">
-                <h3>料理名</h3>
-              </div>
-            </a>
-          </div>
+        <div class="recipes">
+          <a class="recipe recipe-main" href="./recipe/detail.html">
+            <img alt="料理名" src="../../asset/img/sample_food.jpg">
+            <h3>料理名</h3>
+          </a>
+          <a class="recipe" href="./recipe/detail.html">
+            <img alt="料理名" src="../../asset/img/food.jpg">
+            <h3>料理名</h3>
+          </a>
+          <a class="recipe" href="./recipe/detail.html">
+            <img alt="料理名" src="../../asset/img/food.jpg">
+            <h3>料理名</h3>
+          </a>
+          <a class="recipe" href="./recipe/detail.html">
+            <img alt="料理名" src="../../asset/img/food.jpg">
+            <h3>料理名</h3>
+          </a>
         </div>
+        <p>
+          あなたの過去の調理履歴を参考に、体に不足しているであろう食材を中心としたレシピをピックアップしています。
+        </p>
         <a href="./recipe/list.html" class="btn btn-primary">もっと見る</a>
       </section>
 
 
-      <section id="from-material">
+      <section class="materials-wrapper">
         <h2>体に不足している食材から選ぶ</h2>
-        <div id="materials">
-          <a class="material" href="./recipe/list.html">
-            <p>乳製品</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>卵</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>魚類</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>肉類</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>豆類</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>野菜</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>イモ類</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>海藻・茸</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>穀物</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>甘味</p>
-          </a>
-          <a class="material" href="./recipe/list.html">
-            <p>果物</p>
-          </a>
+        <div class="search">
+          <input class="input-middle" type="search" placeholder="使いたい食材名を入力" required>
+          <input type="submit" value="検索">
         </div>
-        <p>最近不足している食材が強調表示されています</p>
+        <div class="materials">
+          <span id="milk" class="material"><a href="./recipe/list.html">乳製品</a></span>
+          <span id="egg"     class="material"><a href="./recipe/list.html">卵</a></span>
+          <span id="meat"    class="material"><a href="./recipe/list.html">魚・肉類</a></span>
+          <span id="bean"    class="material"><a href="./recipe/list.html">豆類</a></span>
+          <span id="veg"     class="material"><a href="./recipe/list.html">野菜</a></span>
+          <span id="fruit"   class="material"><a href="./recipe/list.html">果物</a></span>
+          <span id="mineral" class="material"><a href="./recipe/list.html">海藻・茸</a></span>
+          <span id="crop"    class="material"><a href="./recipe/list.html">穀物</a></span>
+          <span id="potato"  class="material"><a href="./recipe/list.html">イモ類</a></span>
+          <span id="fat"     class="material"><a href="./recipe/list.html">油分</a></span>
+          <span id="sugar"   class="material"><a href="./recipe/list.html">糖分</a></span>
+        </div>
+        <p>最近不足している食材が強調表示されています。</p>
       </section>
 
       <footer>

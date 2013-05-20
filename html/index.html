@@ -2,57 +2,60 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link href='../asset/css/normalize.css' rel='stylesheet' type='text/css'>
-    <link href='../asset/css/index.css' rel='stylesheet' type='text/css'>
+    <title>santé</title>
+    <link href="../asset/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../asset/css/index.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <img class="background-image" src="../asset/img/topimage.jpg">
+    <img alt="背景画像" class="background-image" src="../asset/img/topimage.jpg">
 
     <header>
       <section id="header">
-        <div id="header-inner">
-          <div id="header-logo">
-            <a href="">santé</a><p>-自炊を楽しむすべての人に、健康的な料理生活を-</p>
+        <div class="header-inner">
+          <div class="header-logo">
+            <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
           </div>
         </div>
       </section>
-      <div id="header-dummy"></div>
+      <div class="header-dummy"></div>
     </header>
 
     <div id="wrapper">
 
-      <section id="caption">
-        <h1>santéで毎日体に嬉しいレシピを新しいレシピを覚えましょう！</h1>
+      <section class="caption">
+        <h1>santéへようこそ</h1>
+        <p>
+          まずは一週間！santéを使って無理なく、健康的な自炊生活を続けてみませんか？
+        </p>
       </section>
 
-      <section id="control">
-        <div id="login-bg"></div>
-        <div id="login">
-          <div id="username-field">
+      <section class="login">
+        <div class="login-wrapper"></div>
+        <div class="login-input">
+          <div class="column12">
             <input type="text" placeholder="ユーザー名、またはメールアドレス" required>
           </div>
-          <div id="password-field">
+          <div class="column8">
             <input type="password" placeholder="パスワード" required>
           </div>
-          <div id="submit-field">
+          <div class="column4">
             <input type="submit" value="ログイン" class="btn btn-primary" onClick="document.location='./user/index.html'">
           </div>
-          <div id="reissue">
-            <a href="./reissue.html">パスワードを忘れた方はこちら</a>
+          <div class="login-reissue">
+            <span><a href="./reissue.html">パスワードを忘れた方はこちら</a></span>
           </div>
         </div>
-        <div id="register">
-          <a href="./register/input.html" class="btn btn-primary">新規登録する</a>
+        <div class="login-register">
+          <span><a href="./register/input.html" class="btn btn-info">新規登録する</a></span>
         </div>
       </section>
 
-      <section id="howto">
+      <section class="about">
         <h2>santéとは？</h2>
         <p>
-          毎日の食事、メニューや食材が偏っていませんか？
-          santéはあなたの体に嬉しいレシピを毎日選びます。
-          santéは貴方の調理したレシピを毎日記録し、次の調理時に体に不足している栄養を補うレシピを自動的にリコメンドしてくれるサービスです。バランスの良いレシピを自動的に管理しながら、新しいレシピを覚えましょう！
+          「自炊は続けたいけれど、レシピ選びや食材管理が面倒でついつい外食に…」そんな経験ありませんか？
+          santéはそんな貴方に、毎日その日のおすすめレシピをメールで貴方にお届けするサービスです。
         </p>
       </section>
 

@@ -1,0 +1,80 @@
+@import './import/base.less';
+
+h1 {
+	.h-decoration(@font-large);
+}
+
+.calendar {
+	.calendar-control {
+		.column(12);
+		margin-bottom: 10px;
+
+		.calendar-info {
+			.column(4);
+			.push(2);
+
+			p {
+				text-align: center;
+				margin: 0;
+				font-size: @font-large;
+			}
+		}
+
+		.calendar-control-last-month {
+			.column(1.5);
+			.push(0.5);
+			.round();
+		}
+
+		.calendar-control-next-month {
+			.column(1.5);
+			.push(2);
+			.pull-right;
+		}
+	}
+
+	.calendar-container {
+		.column(11);
+		.push(0.5);
+
+		.calendar-header {
+			.column(12);
+			.calendar-weekday {
+				.column(12/7);
+			}
+		}
+
+		.calendar-row {
+			.column(12);
+			height: 100px;
+
+			.calendar-day {
+				padding: 2px;
+				color: #333333;
+				.border-box;
+				display: inline;
+				float: left;
+				width: 100/7%;
+				height: 100%;
+				border: 1px solid #000000;
+
+				p {
+					margin: 0;
+				}
+
+				ul {
+					margin: 0;
+					padding-left: 10px;
+					list-style: none;
+					li {
+						margin: 0;
+					}
+				}
+			}
+
+			.other-month {
+				background-color: darken(@main-color, 20%);
+			}
+		}
+	}
+}

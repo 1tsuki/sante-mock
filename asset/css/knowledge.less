@@ -1,0 +1,29 @@
+@import './import/base.less';
+
+h1 {
+	.h-decoration(@font-large);
+}
+
+h2 {
+	.h-decoration(@font-medium);
+}
+
+.knowledges {
+	padding: 10px;
+	.index {
+		.column(3);
+		.round();
+		background-color: darken(@main-color, 5%);
+		padding: 5px;
+
+		ul {
+			padding-left: 20px;
+			li {
+			}
+		}
+	}
+
+	.description {
+		.column(9);
+	}
+}
