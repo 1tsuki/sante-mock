@@ -13392,7 +13392,7 @@ h3 {
   margin: 0 0.5952380952380952%;
   *zoom: 1;
   position: relative;
-  height: 30px;
+  height: 35px;
 }
 #wrapper .status .user-info:after {
   clear: both;
@@ -13605,13 +13605,14 @@ h3 {
   -moz-opacity: 0.8;
   opacity: 0.8;
   margin: 0 5px 0 0;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   display: inline-block;
   background-color: #e5e5e5;
 }
 #wrapper .status .user-info .counter dl dt {
-  margin-top: 15px;
+  margin-top: 25%;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   display: block;
