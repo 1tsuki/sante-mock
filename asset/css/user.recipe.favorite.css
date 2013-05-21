@@ -6861,7 +6861,8 @@ fieldset {
   float: right;
 }
 legend {
-  font-size: 1.3em;
+  font-size: 16px;
+  font-weight: bold;
 }
 .input-small {
   -moz-box-sizing: border-box;
@@ -11692,7 +11693,7 @@ header #header .header-inner .header-control ul li a {
   color: #000000;
 }
 header #header .header-inner .header-control ul li:hover {
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }
 header #header .header-inner .header-control ul li:last-child {
   border-right: 1px solid #ebe6d0;
@@ -12717,7 +12718,7 @@ header .header-dummy:after {
 #wrapper #sidebar > aside * {
   padding: 5px;
 }
-#wrapper #sidebar > aside label {
+#wrapper #sidebar > aside h2 {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;

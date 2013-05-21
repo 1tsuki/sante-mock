@@ -25,87 +25,89 @@
       <div id="content">
         <section class="register-form">
           <h1>新規登録</h1>
-          <fieldset>
-            <legend>ユーザー情報</legend>
-            <div class="control-group">
-              <label class="control-label">ユーザー名</label>
-              <div class="controls">
-                  <input type="text" class="input-middle" placeholder="username" required>
-                  <p class="help-block">半角英数字のみ</p>
+          <form>
+            <fieldset>
+              <legend>ユーザー情報</legend>
+              <div class="control-group">
+                <label class="control-label" for="username">ユーザー名</label>
+                <div class="controls">
+                    <input type="text" class="input-middle" id="username" name="username" placeholder="username" required>
+                    <p class="help-block">半角英数字のみ</p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">メールアドレス</label>
-              <div class="controls">
-                  <input type="text" class="input-middle" placeholder="sample@email.com" required>
-                  <p class="help-block"></p>
+              <div class="control-group">
+                <label class="control-label" for="email">メールアドレス</label>
+                <div class="controls">
+                    <input type="text" class="input-middle" id="email" name="email" placeholder="sample@email.com" required>
+                    <p class="help-block"></p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">パスワード</label>
-              <div class="controls">
-                  <input type="password" class="input-middle" placeholder="password" required>
-                  <p class="help-block"></p>
+              <div class="control-group">
+                <label class="control-label" for="password">パスワード</label>
+                <div class="controls">
+                    <input type="password" class="input-middle" id="password" name="password" placeholder="password" required>
+                    <p class="help-block"></p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">パスワード(確認用)</label>
-              <div class="controls">
-                  <input type="password" class="input-middle" placeholder="password" required>
-                  <p class="help-block">半角英数字のみ、8文字以上</p>
+              <div class="control-group">
+                <label class="control-label" for="password-confirm">パスワード(確認用)</label>
+                <div class="controls">
+                    <input type="password" class="input-middle" id="password-confirm" name="password-confirm" placeholder="password" required>
+                    <p class="help-block">半角英数字のみ、8文字以上</p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">性別</label>
-              <div class="controls">
-                  <input type="radio"> 男性
-                  <input type="radio"> 女性
-                  <p class="help-block"></p>
+              <div class="control-group">
+                <label class="control-label" for="male">性別</label>
+                <div class="controls">
+                    <input type="radio" id="male" name="male" value="true" checked> 男性
+                    <input type="radio" id="male" name="male" value="false"> 女性
+                    <p class="help-block"></p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">身長(任意)</label>
-              <div class="controls">
-                  <input type="number" class="input-small">cm
-                  <p class="help-block"></p>
+              <div class="control-group">
+                <label class="control-label" for="height">身長(任意)</label>
+                <div class="controls">
+                    <input type="number" class="input-small" id="height" name="height">cm
+                    <p class="help-block"></p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">体重(任意)</label>
-              <div class="controls">
-                  <input type="number" class="input-small">kg
-                  <p class="help-block"></p>
+              <div class="control-group">
+                <label class="control-label" for="weight">体重(任意)</label>
+                <div class="controls">
+                    <input type="number" class="input-small" id="weight" name="weight">kg
+                    <p class="help-block"></p>
+                </div>
               </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label">年代(任意)</label>
-              <div class="controls">
-                  <select class="input-small">
-                    <option>選択する</option>
-                    <option>10代</option>
-                    <option>20代</option>
-                    <option>30代</option>
-                    <option>40代</option>
-                    <option>50代</option>
-                    <option>60代</option>
-                    <option>それ以上</option>
-                  </select>
-                  <p class="help-block"></p>
+              <div class="control-group">
+                <label class="control-label" for="age">年代(任意)</label>
+                <div class="controls">
+                    <select class="input-small" id="age" name="age">
+                      <option value="" selected>選択する</option>
+                      <option value="10">10代</option>
+                      <option value="20">20代</option>
+                      <option value="30">30代</option>
+                      <option value="40">40代</option>
+                      <option value="50">50代</option>
+                      <option value="60">60代</option>
+                      <option value="70">それ以上</option>
+                    </select>
+                    <p class="help-block"></p>
+                </div>
               </div>
-            </div>
 
-            <div class="form-actions">
-              <button type="reset" class="btn">キャンセル</button>
-              <button type="submit" class="btn btn-primary">仮登録する</button>
-            </div>
+              <div class="form-actions">
+                <button type="reset" class="btn">キャンセル</button>
+                <button type="submit" class="btn btn-primary">仮登録する</button>
+              </div>
 
-          </fieldset>
+            </fieldset>
+          </form>
         </section>
       </div>
 
       <div id="sidebar">
         <aside>
-          <label>広告</label>
+          <h2>広告</h2>
           <img alt="広告" src="../../asset/img/ad.jpg">
         </aside>
       </div>

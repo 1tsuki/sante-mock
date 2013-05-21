@@ -6861,7 +6861,8 @@ fieldset {
   float: right;
 }
 legend {
-  font-size: 1.3em;
+  font-size: 16px;
+  font-weight: bold;
 }
 .input-small {
   -moz-box-sizing: border-box;
@@ -11692,7 +11693,7 @@ header #header .header-inner .header-control ul li a {
   color: #000000;
 }
 header #header .header-inner .header-control ul li:hover {
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }
 header #header .header-inner .header-control ul li:last-child {
   border-right: 1px solid #ebe6d0;
@@ -12717,7 +12718,7 @@ header .header-dummy:after {
 #wrapper #sidebar > aside * {
   padding: 5px;
 }
-#wrapper #sidebar > aside label {
+#wrapper #sidebar > aside h2 {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
@@ -13191,7 +13192,8 @@ h1 {
   width: 98.80952380952381%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  height: 100px;
+  position: relative
+		;
 }
 .recommended-recipes .control:after {
   clear: both;
@@ -13379,6 +13381,8 @@ h1 {
   margin: 0 0.5952380952380952%;
   *zoom: 1;
   margin-left: 67.26190476190476%;
+  position: absolute;
+  top: -70px;
 }
 .recommended-recipes .control .sort-menu:after {
   clear: both;
@@ -13568,19 +13572,17 @@ h1 {
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  position: absolute;
-  top: -100px;
   text-align: center;
   display: inline-block;
   height: 40px;
   line-height: 40px;
   color: #FFFFFF;
-  background-color: #f3a01b;
-  background-image: -moz-linear-gradient(top, #f4a62a, #f3a01b);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4a62a), to(#f3a01b));
-  background-image: -webkit-linear-gradient(top, lighten #f4a62a, #f3a01b);
-  background-image: -o-linear-gradient(top, #f4a62a, #f3a01b);
-  background-image: linear-gradient(to bottom, #f4a62a, #f3a01b);
+  background-color: #78c8f9;
+  background-image: -moz-linear-gradient(top, #87cefa, #78c8f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#87cefa), to(#78c8f9));
+  background-image: -webkit-linear-gradient(top, lighten #87cefa, #78c8f9);
+  background-image: -o-linear-gradient(top, #87cefa, #78c8f9);
+  background-image: linear-gradient(to bottom, #87cefa, #78c8f9);
   background-repeat: repeat-x;
 }
 .recommended-recipes .control .sort-menu .sort:after {
@@ -13759,6 +13761,15 @@ h1 {
 .recommended-recipes .control .sort-menu .sort:after {
   clear: both;
 }
+.recommended-recipes .control .sort-menu .sort:hover {
+  background-color: #60bef8;
+  background-image: -moz-linear-gradient(top, #6fc4f9, #60bef8);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6fc4f9), to(#60bef8));
+  background-image: -webkit-linear-gradient(top, lighten #6fc4f9, #60bef8);
+  background-image: -o-linear-gradient(top, #6fc4f9, #60bef8);
+  background-image: linear-gradient(to bottom, #6fc4f9, #60bef8);
+  background-repeat: repeat-x;
+}
 .recommended-recipes .control .search {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -13768,7 +13779,7 @@ h1 {
   width: 98.80952380952381%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  line-height: 50px;
+  height: 30px;
 }
 .recommended-recipes .control .search:after {
   clear: both;
@@ -13944,6 +13955,378 @@ h1 {
   clear: both;
 }
 .recommended-recipes .control .search:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 40.476190476190474%;
+  margin: 0 0.5952380952380952%;
+  *zoom: 1;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:before,
+.recommended-recipes .control .search input[type="search"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="search"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 15.476190476190476%;
+  margin: 0 0.5952380952380952%;
+  *zoom: 1;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:before,
+.recommended-recipes .control .search input[type="submit"]:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
+  clear: both;
+}
+.recommended-recipes .control .search input[type="submit"]:after {
   clear: both;
 }
 .recommended-recipes .control .materials {
@@ -14138,7 +14521,7 @@ h1 {
 }
 .recommended-recipes .control .materials .material {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .recommended-recipes .recipes {
   -moz-box-sizing: border-box;
@@ -15285,9 +15668,10 @@ h1 {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 23.809523809523807%;
+  width: 15.476190476190476%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
+  font-size: 12px;
   font-weight: bold;
 }
 .recommended-recipes .recipes .recipe a .recipe-info-wrapper .recipe-materials-wrapper .recipe-materials-label:after {
@@ -15472,7 +15856,7 @@ h1 {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 73.80952380952381%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
   font-size: 12px;
@@ -15845,9 +16229,10 @@ h1 {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 23.809523809523807%;
+  width: 15.476190476190476%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
+  font-size: 12px;
   font-weight: bold;
 }
 .recommended-recipes .recipes .recipe a .recipe-info-wrapper .recipe-esttime-wrapper .recipe-esttime-label:after {
@@ -16032,7 +16417,7 @@ h1 {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 73.80952380952381%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
   font-size: 12px;
@@ -16404,5 +16789,5 @@ h1 {
   height: 100px;
 }
 .recommended-recipes .recipes .recipe a:hover {
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }

@@ -40,28 +40,13 @@
           <div class="header-logo">
             <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
           </div>
-          <div class="header-control">
+          <nav class="header-control">
             <ul>
-              <li>
-                <a href="./log/monthly.html">
-                  <i></i>
-                  調理履歴
-                </a>
-              </li>
-              <li>
-                <a href="./recipe/favorite.html">
-                  <i></i>
-                  お気に入り
-                </a>
-              </li>
-              <li>
-                <a href="../knowledge/nutrients.html">
-                  <i></i>
-                  栄養知識
-                </a>
-              </li>
+              <li><a href="./log/monthly.html"><i></i>調理履歴</a></li>
+              <li><a href="./recipe/favorite.html"><i></i>お気に入り</a></li>
+              <li><a href="../knowledge/nutrients.html"><i></i>栄養知識</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </section>
       <div class="header-dummy"></div>
@@ -69,31 +54,16 @@
 
     <div id="wrapper">
       <section class="status">
-        <div class="cover">
-          <img alt="カバー画像" class="cover-img" src="../../asset/img/flower.png">
-        </div>
+        <div class="cover"><img alt="カバー画像" class="cover-img" src="../../asset/img/flower.png"></div>
         <div class="user-info">
           <div class="profile">
-            <div class="profile-img">
-              <img alt="プロフィール画像" src="../../asset/img/profile.jpg">
-            </div>
-            <div class="profile-name">
-              <span>Username</span>
-            </div>
+            <div class="profile-img"><img alt="プロフィール画像" src="../../asset/img/profile.jpg"></div>
+            <div class="profile-name"><span>Username</span></div>
           </div>
           <div class="counter">
-            <dl>
-              <dt>1024回</dt>
-              <dd>自炊回数</dd>
-            </dl>
-            <dl>
-              <dt>5日</dt>
-              <dd>連続日数</dd>
-            </dl>
-            <dl>
-              <dt>80%</dt>
-              <dd>バランス</dd>
-            </dl>
+            <dl><dt>1024回</dt><dd>自炊回数</dd></dl>
+            <dl><dt>5日</dt><dd>連続日数</dd></dl>
+            <dl><dt>80%</dt><dd>バランス</dd></dl>
           </div>
         </div>
       </section>
@@ -124,31 +94,31 @@
             <h3>料理名</h3>
           </a>
         </div>
-        <p>
-          あなたの過去の調理履歴を参考に、体に不足しているであろう食材を中心としたレシピをピックアップしています。
-        </p>
+        <p>あなたの過去の調理履歴を参考に、体に不足しているであろう食材を中心としたレシピをピックアップしています。</p>
         <a href="./recipe/list.html" class="btn btn-primary">もっと見る</a>
       </section>
 
-
       <section class="materials-wrapper">
         <h2>体に不足している食材から選ぶ</h2>
+        <h3>食材名から検索</h3>
         <div class="search">
           <input class="input-middle" type="search" placeholder="使いたい食材名を入力" required>
-          <input type="submit" value="検索">
+          <input class="btn btn-primary btn-small" type="submit" value="検索">
         </div>
+
+        <h3>食材分類から選ぶ</h3>
         <div class="materials">
-          <span id="milk" class="material"><a href="./recipe/list.html">乳製品</a></span>
-          <span id="egg"     class="material"><a href="./recipe/list.html">卵</a></span>
-          <span id="meat"    class="material"><a href="./recipe/list.html">魚・肉類</a></span>
-          <span id="bean"    class="material"><a href="./recipe/list.html">豆類</a></span>
-          <span id="veg"     class="material"><a href="./recipe/list.html">野菜</a></span>
-          <span id="fruit"   class="material"><a href="./recipe/list.html">果物</a></span>
-          <span id="mineral" class="material"><a href="./recipe/list.html">海藻・茸</a></span>
-          <span id="crop"    class="material"><a href="./recipe/list.html">穀物</a></span>
-          <span id="potato"  class="material"><a href="./recipe/list.html">イモ類</a></span>
-          <span id="fat"     class="material"><a href="./recipe/list.html">油分</a></span>
-          <span id="sugar"   class="material"><a href="./recipe/list.html">糖分</a></span>
+          <div id="milk"    class="material"><a href="./recipe/list.html">乳製品</a></div>
+          <div id="egg"     class="material"><a href="./recipe/list.html">卵</a></div>
+          <div id="meat"    class="material"><a href="./recipe/list.html">魚・肉類</a></div>
+          <div id="bean"    class="material"><a href="./recipe/list.html">豆類</a></div>
+          <div id="veg"     class="material"><a href="./recipe/list.html">野菜</a></div>
+          <div id="fruit"   class="material"><a href="./recipe/list.html">果物</a></div>
+          <div id="mineral" class="material"><a href="./recipe/list.html">海藻・茸</a></div>
+          <div id="crop"    class="material"><a href="./recipe/list.html">穀物</a></div>
+          <div id="potato"  class="material"><a href="./recipe/list.html">イモ類</a></div>
+          <div id="fat"     class="material"><a href="./recipe/list.html">油分</a></div>
+          <div id="sugar"   class="material"><a href="./recipe/list.html">糖分</a></div>
         </div>
         <p>最近不足している食材が強調表示されています。</p>
       </section>

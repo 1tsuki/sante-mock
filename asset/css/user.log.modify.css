@@ -6861,7 +6861,8 @@ fieldset {
   float: right;
 }
 legend {
-  font-size: 1.3em;
+  font-size: 16px;
+  font-weight: bold;
 }
 .input-small {
   -moz-box-sizing: border-box;
@@ -11692,7 +11693,7 @@ header #header .header-inner .header-control ul li a {
   color: #000000;
 }
 header #header .header-inner .header-control ul li:hover {
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }
 header #header .header-inner .header-control ul li:last-child {
   border-right: 1px solid #ebe6d0;
@@ -12717,7 +12718,7 @@ header .header-dummy:after {
 #wrapper #sidebar > aside * {
   padding: 5px;
 }
-#wrapper #sidebar > aside label {
+#wrapper #sidebar > aside h2 {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
@@ -13210,7 +13211,7 @@ h2 {
   width: 400px;
   height: 200px;
 }
-.modify .easy-input {
+.modify .fields-wrapper {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -13220,560 +13221,183 @@ h2 {
   margin: 0 0.5952380952380952%;
   *zoom: 1;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:before,
-.modify .easy-input:after {
+.modify .fields-wrapper:before,
+.modify .fields-wrapper:after {
   content: "";
   display: table;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input:after {
+.modify .fields-wrapper:after {
   clear: both;
 }
-.modify .easy-input .easy-input-control {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 82.14285714285714%;
-  margin: 0 0.5952380952380952%;
-  *zoom: 1;
-  margin-left: 8.928571428571427%;
-  padding: 10px;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:before,
-.modify .easy-input .easy-input-control:after {
-  content: "";
-  display: table;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control:after {
-  clear: both;
-}
-.modify .easy-input .easy-input-control input {
-  font-size: 16px;
-}
-.modify .detail-input {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 98.80952380952381%;
-  margin: 0 0.5952380952380952%;
-  *zoom: 1;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:before,
-.modify .detail-input:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input:after {
-  clear: both;
-}
-.modify .detail-input .input-fields {
+.modify .fields-wrapper .fields {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -13783,555 +13407,185 @@ h2 {
   margin: 0 0.5952380952380952%;
   *zoom: 1;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:before,
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:before,
+.modify .fields-wrapper .fields:after {
   content: "";
   display: table;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields:after {
+.modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .detail-input .input-fields .field .label {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 23.809523809523807%;
-  margin: 0 0.5952380952380952%;
-  *zoom: 1;
-  margin-left: 17.26190476190476%;
+.modify .fields-wrapper .fields input:after {
+  content: "g";
 }
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:before,
-.modify .detail-input .input-fields .field .label:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .input-fields .field .label:after {
-  clear: both;
-}
-.modify .detail-input .submit {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 98.80952380952381%;
-  margin: 0 0.5952380952380952%;
-  *zoom: 1;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:before,
-.modify .detail-input .submit:after {
-  content: "";
-  display: table;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit:after {
-  clear: both;
-}
-.modify .detail-input .submit input {
+.modify .fields-wrapper .fields .submit {
   float: right;
 }

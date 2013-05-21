@@ -25,16 +25,18 @@ h2 {
 		margin-bottom: 10px;
 		padding: 10px;
 
-		input[type="search"] {
-			.column(8);
-			line-height: 20px;
-			height: 26px;
-		}
-		input {
-			.column(2);
-		}
-		a {
-			.column(2);
+		fieldset {
+			border: none;
+			margin: 0;
+
+			input[type="search"] {
+				.column(6);
+				line-height: 20px;
+				height: 26px;
+			}
+			input {
+				.column(2);
+			}
 		}
 	}
 
@@ -70,9 +72,16 @@ h2 {
 		}
 
 		.meal-info {
+			position: relative;
 			.column(8);
 			.border-box;
 			height: 100%;
+
+			.modify-control {
+				position: absolute;
+				top: 0px;
+				right: 0px;
+			}
 
 			canvas {
 				height: 80px;
@@ -83,21 +92,24 @@ h2 {
 
 			.meal-modify {
 				.column(12);
-				legend {
-					font-size: @font-medium;
-				}
 
-				input[type="search"] {
-					.column(6);
-					line-height: 20px;
-					height: 26px;
-				}
+				fieldset {
+					margin: 0;
+					border: none;
 
-				input[type="submit"] {
-					.column(2);
-				}
-				a {
-					.column(2);
+					legend {
+						font-size: @font-medium;
+					}
+
+					input[type="search"] {
+						.column(6);
+						line-height: 20px;
+						height: 26px;
+					}
+
+					input[type="submit"] {
+						.column(3);
+					}
 				}
 			}
 

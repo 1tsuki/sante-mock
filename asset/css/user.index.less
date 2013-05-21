@@ -4,11 +4,17 @@ h2 {
 	.h-decoration(@font-medium);
 }
 
+h3 {
+	margin: 0;
+	font-size: @font-medium;
+}
+
 #wrapper {
 	.status {
 		.column(8);
 		height: 230px;
 		margin-bottom: 20px;
+		position: relative;
 
 		.cover {
 			.column(12);
@@ -22,35 +28,45 @@ h2 {
 		}
 
 		.user-info {
+			.column(12);
 			position: relative;
-			top: -55px;
-			left: 10px;
+			height: 30px;
 
 			.profile {
-				display: inline-block;
-				width: 200px;
-				> div {
-					display: inline-block;
-				}
+				position: absolute;
+				left: 0px;
+				bottom: 0px;
+
 
 				.profile-img {
+					position: absolute;
+					bottom: 0px;
+					left: 10px;
+					padding: 5px 5px 0 5px;
 					background-color: @main-color;
-					padding: 5px;
 					img {
 						height: 75px;
 						width: 75px;
 					}
 				}
+
+				.profile-name {
+					position: absolute;
+					bottom: 0px;
+					left: 100px;
+				}
 			}
 
 			.counter {
-				float: right;
-				margin: 10px;
+				position: absolute;
+				right: 0px;
+				bottom: 0px;
 
 				dl {
+					float: right;
 					.round(50%);
 					.opacity(80);
-					margin: 0;
+					margin: 0 5px 0 0;
 					height: 80px;
 					width: 80px;
 					display: inline-block;
@@ -105,14 +121,15 @@ h2 {
 
 			.recipe {
 				.column(5);
-				height: 70px;
+				height: 80px;
 				overflow: hidden;
 				text-decoration: none;
+				position: relative;
 
 				h3 {
-					position: relative;
+					position: absolute;
 					line-height: 30px;
-					top: -40px;
+					bottom: 5px;
 					left: 10px;
 					margin: 0;
 					padding: 0;
@@ -121,14 +138,19 @@ h2 {
 				}
 
 				img{
-					height: 100%;
+					width: 100%;
+					height: auto;
 					overflow:hidden;
 				}
 			}
 
 			.recipe-main {
 				.column(7);
-				height: 210px;
+				height: 240px;
+
+				h3 {
+					font-size: @font-large;
+				}
 			}
 		}
 
@@ -146,6 +168,21 @@ h2 {
 
 	.materials-wrapper {
 		.column(5);
+		padding: 10px;
+		margin-bottom: 10px;
+
+		.search {
+			.column(12);
+			padding: 5px;
+			margin-bottom: 10px;
+			input[type="search"] {
+				.column(9);
+				height: 26px;
+			}
+			input[type="submit"] {
+				.column(3);
+			}
+		}
 
 		.materials {
 			.column(12);
@@ -168,7 +205,7 @@ h2 {
 			}
 
 			.material-red-light {
-				.background-gradient(lighten(@red, 50%));
+				.background-gradient(lighten(@red, 35%));
 			}
 
 			.material-red-normal {
@@ -200,12 +237,13 @@ h2 {
 			}
 
 			.material-yellow-dark {
-				.background-gradient(@yellow);
+				.background-gradient(lighten(@yellow, 5%));
 			}
 		}
 
 		p {
 			.column(12);
+			margin: 0;
 			padding: 10px;
 			text-align: center;
 			font-size: @font-small;

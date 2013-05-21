@@ -85,14 +85,28 @@ h2 {
 .recommend {
 	.recipe {
 		.column(3);
+		margin-bottom: 5px;
 
 		a {
 			display: block;
+			position: relative;
 			width: 100%;
-			height: 100%;
+			height: 150px;
+			overflow: hidden;
 
 			img {
-				width: 100%;
+				height: 100%;
+			}
+
+			h3 {
+				position: absolute;
+				line-height: 30px;
+				bottom: 5px;
+				left: 10px;
+				margin: 0;
+				padding: 0;
+				color: #FFFFFF;
+				text-shadow: 1px 1px 3px #000000;
 			}
 
 			&:hover {
@@ -103,5 +117,6 @@ h2 {
 
 	a.btn {
 		.pull-right;
+		margin: 5px;
 	}
 }

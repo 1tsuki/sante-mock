@@ -6861,7 +6861,8 @@ fieldset {
   float: right;
 }
 legend {
-  font-size: 1.3em;
+  font-size: 16px;
+  font-weight: bold;
 }
 .input-small {
   -moz-box-sizing: border-box;
@@ -11692,7 +11693,7 @@ header #header .header-inner .header-control ul li a {
   color: #000000;
 }
 header #header .header-inner .header-control ul li:hover {
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }
 header #header .header-inner .header-control ul li:last-child {
   border-right: 1px solid #ebe6d0;
@@ -12717,7 +12718,7 @@ header .header-dummy:after {
 #wrapper #sidebar > aside * {
   padding: 5px;
 }
-#wrapper #sidebar > aside label {
+#wrapper #sidebar > aside h2 {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
@@ -13216,195 +13217,199 @@ h2 {
 .meals .add-meal:after {
   clear: both;
 }
-.meals .add-meal input[type="search"] {
+.meals .add-meal fieldset {
+  border: none;
+  margin: 0;
+}
+.meals .add-meal fieldset input[type="search"] {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 65.47619047619048%;
+  width: 48.80952380952381%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
   line-height: 20px;
   height: 26px;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:before,
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:before,
+.meals .add-meal fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input[type="search"]:after {
+.meals .add-meal fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .add-meal input {
+.meals .add-meal fieldset input {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -13414,366 +13419,180 @@ h2 {
   margin: 0 0.5952380952380952%;
   *zoom: 1;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:before,
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:before,
+.meals .add-meal fieldset input:after {
   content: "";
   display: table;
 }
-.meals .add-meal input:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
-.meals .add-meal input:after {
-  clear: both;
-}
-.meals .add-meal a {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 15.476190476190476%;
-  margin: 0 0.5952380952380952%;
-  *zoom: 1;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:before,
-.meals .add-meal a:after {
-  content: "";
-  display: table;
-}
-.meals .add-meal a:after {
-  clear: both;
-}
-.meals .add-meal a:after {
+.meals .add-meal fieldset input:after {
   clear: both;
 }
 .meals .meal {
@@ -14357,6 +14176,7 @@ h2 {
   height: 100%;
 }
 .meals .meal .meal-info {
+  position: relative;
   display: inline;
   float: left;
   width: 65.47619047619048%;
@@ -14542,6 +14362,11 @@ h2 {
 }
 .meals .meal .meal-info:after {
   clear: both;
+}
+.meals .meal .meal-info .modify-control {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 .meals .meal .meal-info canvas {
   height: 80px;
@@ -14735,10 +14560,14 @@ h2 {
 .meals .meal .meal-info .meal-modify:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify legend {
+.meals .meal .meal-info .meal-modify fieldset {
+  margin: 0;
+  border: none;
+}
+.meals .meal .meal-info .meal-modify fieldset legend {
   font-size: 16px;
 }
-.meals .meal .meal-info .meal-modify input[type="search"] {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"] {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -14750,551 +14579,365 @@ h2 {
   line-height: 20px;
   height: 26px;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:before,
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="search"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="search"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"] {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"] {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 15.476190476190476%;
+  width: 23.809523809523807%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:before,
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:before,
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   content: "";
   display: table;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }
-.meals .meal .meal-info .meal-modify input[type="submit"]:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 15.476190476190476%;
-  margin: 0 0.5952380952380952%;
-  *zoom: 1;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:before,
-.meals .meal .meal-info .meal-modify a:after {
-  content: "";
-  display: table;
-}
-.meals .meal .meal-info .meal-modify a:after {
-  clear: both;
-}
-.meals .meal .meal-info .meal-modify a:after {
+.meals .meal .meal-info .meal-modify fieldset input[type="submit"]:after {
   clear: both;
 }

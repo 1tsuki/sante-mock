@@ -19,34 +19,18 @@ h2 {
 		}
 	}
 
-	.easy-input {
+	.fields-wrapper {
 		.column(12);
-
-		.easy-input-control {
-			.column(10);
-			.push(1);
-			padding: 10px;
-			input {
-				font-size: @font-medium;
-			}
-		}
-	}
-
-	.detail-input {
-		.column(12);
-		.input-fields {
+		.fields {
 			.column(6);
 
-			.field {
-				.label {
-					.column(3);
-					.push(2);
+			input {
+				&:after {
+					content: "g";
 				}
 			}
-		}
-		.submit {
-			.column(12);
-			input {
+
+			.submit {
 				.pull-right;
 			}
 		}

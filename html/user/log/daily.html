@@ -5,7 +5,6 @@
     <title>santé</title>
     <link href="../../../asset/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../../../asset/css/user.log.daily.css" rel="stylesheet" type="text/css">
-    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
     <script type="text/javascript" src="../../../asset/js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../../../asset/js/pieGraph.js"></script>
     <script type="text/javascript">
@@ -22,6 +21,7 @@
       });
     </script>
   </head>
+  <body>
 
     <header>
       <section id="header">
@@ -29,51 +29,35 @@
           <div class="header-logo">
             <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
           </div>
-          <div class="header-control">
+          <nav class="header-control">
             <ul>
-              <li>
-                <a href="../log/monthly.html">
-                  <i></i>
-                  調理履歴
-                </a>
-              </li>
-              <li>
-                <a href="../recipe/favorite.html">
-                  <i></i>
-                  お気に入り
-                </a>
-              </li>
-              <li>
-                <a href="../../howto.html">
-                  <i></i>
-                  つかいかた
-                </a>
-              </li>
+              <li><a href="../log/monthly.html"><i></i>調理履歴</a></li>
+              <li><a href="../recipe/favorite.html"><i></i>お気に入り</a></li>
+              <li><a href="../../knowledge/nutrients.html"><i></i>栄養知識</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </section>
       <div class="header-dummy"></div>
     </header>
 
     <div id="wrapper">
-      <div id="content">
+      <section id="content">
         <section class="meals">
           <h1>5/3(金) の食事内容</h1>
+
           <section class="graph">
             <canvas id="daily-graph"></canvas>
           </section>
 
           <section class="add-meal">
             <h2>食事を追加</h2>
-            <input class="input-medium" type="search" list="meals" placeholder="メニュー名を入力">
-            <input type="submit" value="かんたん入力" class="btn btn-primary btn-small">
-            <datalist id="meals">
-              <option value="カレー">
-              <option value="焼肉">
-              <option value="寿司">
-            </datalist>
-            <a href="./modify.html" class="btn btn-info btn-small">詳細登録</a>
+            <form>
+              <fieldset>
+                <input class="input-medium" type="search" placeholder="メニュー名を入力">
+                <input type="submit" value="かんたん追加" class="btn btn-primary btn-small">
+              </fieldset>
+            </form>
           </section>
 
           <section class="meal">
@@ -85,18 +69,19 @@
             </div>
             <div class="meal-info">
               <h2>自動入力</h2>
-              <canvas id="meal-1"></canvas>
-              <div class="meal-modify">
-                <legend>登録内容を補正する</legend>
-                <input class="input-medium" type="search" list="meals" placeholder="メニュー名を入力">
-                <input type="submit" value="かんたん補正" class="btn btn-primary btn-small">
-                <datalist id="meals">
-                  <option value="カレー">
-                  <option value="焼肉">
-                  <option value="寿司">
-                </datalist>
+              <div class="modify-control">
                 <a href="./modify.html" class="btn btn-info btn-small">詳細補正</a>
                 <a href="./modify.html" class="btn btn-danger btn-small">削除</a>
+              </div>
+              <canvas id="meal-1"></canvas>
+              <div class="meal-modify">
+                <form>
+                  <fieldset>
+                    <legend>登録内容を補正する</legend>
+                    <input class="input-medium" type="search" placeholder="メニュー名を入力">
+                    <input type="submit" value="簡易補正" class="btn btn-primary btn-small">
+                  </fieldset>
+                </form>
               </div>
             </div>
           </section>
@@ -110,18 +95,19 @@
             </div>
             <div class="meal-info">
               <h2>自動入力</h2>
-              <canvas id="meal-1"></canvas>
-              <div class="meal-modify">
-                <legend>登録内容を補正する</legend>
-                <input class="input-medium" type="search" list="meals" placeholder="メニュー名を入力">
-                <input type="submit" value="かんたん補正" class="btn btn-primary btn-small">
-                <datalist id="meals">
-                  <option value="カレー">
-                  <option value="焼肉">
-                  <option value="寿司">
-                </datalist>
+              <div class="modify-control">
                 <a href="./modify.html" class="btn btn-info btn-small">詳細補正</a>
                 <a href="./modify.html" class="btn btn-danger btn-small">削除</a>
+              </div>
+              <canvas id="meal-1"></canvas>
+              <div class="meal-modify">
+                <form>
+                  <fieldset>
+                    <legend>登録内容を補正する</legend>
+                    <input class="input-medium" type="search" placeholder="メニュー名を入力">
+                    <input type="submit" value="簡易補正" class="btn btn-primary btn-small">
+                  </fieldset>
+                </form>
               </div>
             </div>
           </section>
@@ -134,34 +120,26 @@
               <img alt="料理名" src="../../../asset/img/sample_food.jpg">
             </div>
             <div class="meal-info">
-              <h2>自動入力</h2>
-              <canvas id="meal-1"></canvas>
-              <div class="meal-modify">
-                <legend>登録内容を補正する</legend>
-                <input class="input-medium" type="search" list="meals" placeholder="メニュー名を入力">
-                <input type="submit" value="かんたん補正" class="btn btn-primary btn-small">
-                <datalist id="meals">
-                  <option value="カレー">
-                  <option value="焼肉">
-                  <option value="寿司">
-                </datalist>
+              <h2>たこやき</h2>
+              <div class="modify-control">
                 <a href="./modify.html" class="btn btn-info btn-small">詳細補正</a>
                 <a href="./modify.html" class="btn btn-danger btn-small">削除</a>
               </div>
+              <canvas id="meal-1"></canvas>
             </div>
           </section>
 
         </section>
-      </div>
+      </section>
 
       <section id="sidebar">
         <aside>
-          <label>栄養バランス表</label>
+          <h2>栄養バランス表</h2>
           <canvas class="sidebar-graph"></canvas>
           <a href="../../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
         </aside>
         <aside>
-          <label>広告</label>
+          <h2>広告</h2>
           <img alt="広告" src="../../../asset/img/ad.jpg">
         </aside>
       </section>

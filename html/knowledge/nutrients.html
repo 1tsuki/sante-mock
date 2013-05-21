@@ -21,42 +21,26 @@
       });
     </script>
   </head>
+  <body>
 
     <header>
       <section id="header">
         <div class="header-inner">
-          <div class="header-logo">
-            <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
-          </div>
-          <div class="header-control">
+          <div class="header-logo"><a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p></div>
+          <nav class="header-control">
             <ul>
-              <li>
-                <a href="../log/monthly.html">
-                  <i></i>
-                  調理履歴
-                </a>
-              </li>
-              <li>
-                <a href="../recipe/favorite.html">
-                  <i></i>
-                  お気に入り
-                </a>
-              </li>
-              <li>
-                <a href="../../howto.html">
-                  <i></i>
-                  つかいかた
-                </a>
-              </li>
+              <li><a href="../user/log/monthly.html"><i></i>調理履歴</a></li>
+              <li><a href="../user/recipe/favorite.html"><i></i>お気に入り</a></li>
+              <li><a href="../knowledge/nutrients.html"><i></i>栄養知識</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </section>
       <div class="header-dummy"></div>
     </header>
 
     <div id="wrapper">
-      <div id="content">
+      <section id="content">
         <section class="knowledges">
           <section class="index">
             <h2>コンテンツ一覧</h2>
@@ -70,20 +54,19 @@
             <h1>栄養状態グラフについて</h1>
           </section>
         </section>
-      </div>
+      </section>
 
 
-        <section id="sidebar">
-          <aside>
-            <h1>栄養バランス表</h1>
-            <canvas class="sidebar-graph"></canvas>
-            <a href="../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
-          </aside>
-          <aside>
-            <label>広告</label>
-            <img alt="広告" src="../../asset/img/ad.jpg">
-          </aside>
-        </section>
+      <section id="sidebar">
+        <aside>
+          <h2>栄養バランス表</h2>
+          <canvas class="sidebar-graph"></canvas>
+          <a href="../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
+        </aside>
+        <aside>
+          <h2>広告</h2>
+          <img alt="広告" src="../../asset/img/ad.jpg">
+        </aside>
       </section>
 
       <footer>

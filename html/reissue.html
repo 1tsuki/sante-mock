@@ -13,41 +13,40 @@
     <header>
       <section id="header">
         <div class="header-inner">
-          <div class="header-logo">
-            <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
-          </div>
+          <div class="header-logo"><a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p></div>
         </div>
       </section>
       <div class="header-dummy"></div>
     </header>
 
     <div id="wrapper">
-      <div id="content">
 
+      <div id="content">
         <section class="reissue-form">
           <h1>パスワード再発行</h1>
-          <fieldset>
-            <legend>登録情報を入力</legend>
-            <div class="control-group">
-              <label class="control-label">メールアドレス</label>
-              <div class="controls">
-                  <input type="text" class="input-middle" placeholder="username" required>
-                  <p class="help-block">登録したメールアドレスに仮パスワードが送信されます</p>
+          <form>
+            <fieldset>
+              <legend>登録情報を入力</legend>
+              <div class="control-group">
+                <label class="control-label" for="email">メールアドレス</label>
+                <div class="controls">
+                    <input type="text" id="email" name="email" class="input-middle" placeholder="username" required>
+                    <p class="help-block">登録したメールアドレスに仮パスワードが送信されます</p>
+                </div>
               </div>
-            </div>
 
-            <div class="form-actions">
-              <button type="reset" class="btn">キャンセル</button>
-              <button type="submit" class="btn btn-primary">再発行する</button>
-            </div>
-
-          </fieldset>
+              <div class="form-actions">
+                <button type="reset" class="btn" tabindex="1">キャンセル</button>
+                <button type="submit" class="btn btn-primary" tabindex="2">再発行する</button>
+              </div>
+            </fieldset>
+          </form>
         </section>
       </div>
 
       <section id="sidebar">
         <aside>
-          <label>広告</label>
+          <h2>広告</h2>
           <img alt="広告" src="../asset/img/ad.jpg">
         </aside>
       </section>

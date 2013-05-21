@@ -6861,7 +6861,8 @@ fieldset {
   float: right;
 }
 legend {
-  font-size: 1.3em;
+  font-size: 16px;
+  font-weight: bold;
 }
 .input-small {
   -moz-box-sizing: border-box;
@@ -11692,7 +11693,7 @@ header #header .header-inner .header-control ul li a {
   color: #000000;
 }
 header #header .header-inner .header-control ul li:hover {
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
 }
 header #header .header-inner .header-control ul li:last-child {
   border-right: 1px solid #ebe6d0;
@@ -12717,7 +12718,7 @@ header .header-dummy:after {
 #wrapper #sidebar > aside * {
   padding: 5px;
 }
-#wrapper #sidebar > aside label {
+#wrapper #sidebar > aside h2 {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
@@ -14541,6 +14542,7 @@ h2 {
   width: 23.809523809523807%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
+  margin-bottom: 5px;
 }
 .recommend .recipe:after {
   clear: both;
@@ -14720,15 +14722,28 @@ h2 {
 }
 .recommend .recipe a {
   display: block;
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 150px;
+  overflow: hidden;
 }
 .recommend .recipe a img {
-  width: 100%;
+  height: 100%;
+}
+.recommend .recipe a h3 {
+  position: absolute;
+  line-height: 30px;
+  bottom: 5px;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 3px #000000;
 }
 .recommend .recipe a:hover {
   background-color: #e5e5e5;
 }
 .recommend a.btn {
   float: right;
+  margin: 5px;
 }

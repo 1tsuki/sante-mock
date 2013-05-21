@@ -24,34 +24,20 @@
   </head>
 
   <body>
+
     <header>
       <section id="header">
         <div class="header-inner">
           <div class="header-logo">
             <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
           </div>
-          <div class="header-control">
+          <nav class="header-control">
             <ul>
-              <li>
-                <a href="../log/monthly.html">
-                  <i></i>
-                  調理履歴
-                </a>
-              </li>
-              <li>
-                <a href="../recipe/favorite.html">
-                  <i></i>
-                  お気に入り
-                </a>
-              </li>
-              <li>
-                <a href="../../howto.html">
-                  <i></i>
-                  つかいかた
-                </a>
-              </li>
+              <li><a href="../log/monthly.html"><i></i>調理履歴</a></li>
+              <li><a href="../recipe/favorite.html"><i></i>お気に入り</a></li>
+              <li><a href="../../knowledge/nutrients.html"><i></i>栄養知識</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </section>
       <div class="header-dummy"></div>
@@ -66,116 +52,80 @@
               <div class="sort">おすすめ順</div>
               <div class="sort">調理時間順</div>
             </div>
-            <aside class="materials">
-              <label>食材ジャンルで絞込み</label>
-              <a class="material" href="./recipe/list.html">
-                <span>乳製品</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>卵</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>魚類</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>肉類</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>豆類</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>野菜</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>イモ類</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>海藻・きのこ</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>穀物</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>甘味</span>
-              </a>
-              <a class="material" href="./recipe/list.html">
-                <span>果物</span>
-              </a>
-            </aside>
+
             <aside class="search">
               <input class="input-small" type="search" placeholder="使いたい食材名を入力" required>
-              <input type="submit" value="検索">
+              <input class="btn btn-primary" type="submit" value="検索">
+            </aside>
+
+            <aside class="materials">
+              <span>食材ジャンルで絞込み</span>
+              <a class="material" href="./recipe/list.html"><span>乳製品</span></a>
+              <a class="material" href="./recipe/list.html"><span>卵</span></a>
+              <a class="material" href="./recipe/list.html"><span>魚類</span></a>
+              <a class="material" href="./recipe/list.html"><span>肉類</span></a>
+              <a class="material" href="./recipe/list.html"><span>豆類</span></a>
+              <a class="material" href="./recipe/list.html"><span>野菜</span></a>
+              <a class="material" href="./recipe/list.html"><span>イモ類</span></a>
+              <a class="material" href="./recipe/list.html"><span>海藻・きのこ</span></a>
+              <a class="material" href="./recipe/list.html"><span>穀物</span></a>
+              <a class="material" href="./recipe/list.html"><span>甘味</span></a>
+              <a class="material" href="./recipe/list.html"><span>果物</span></a>
             </aside>
           </section>
 
           <section class="recipes">
+
             <div class="recipe">
               <a href="./detail.html">
-                <div class="recipe-image-wrapper">
-                  <img alt="ステーキ" src="../../../asset/img/sample_food.jpg">
-                </div>
-                <div class="recipe-name-wrapper">
-                  <label class="recipe-name">肉ステーキ</label>
-                </div>
+                <div class="recipe-image-wrapper"><img alt="ステーキ" src="../../../asset/img/sample_food.jpg"></div>
+                <div class="recipe-name-wrapper"><span class="recipe-name">肉ステーキ</span></div>
                 <div class="recipe-info-wrapper">
                   <div class="recipe-materials-wrapper">
-                    <label class="recipe-materials-label">材料</label>
+                    <span class="recipe-materials-label">材料</span>
                     <span class="recipe-materials">肉、塩、胡椒</span>
                   </div>
                   <div class="recipe-esttime-wrapper">
-                    <label class="recipe-esttime-label">時間</label>
+                    <span class="recipe-esttime-label">時間</span>
                     <span class="recipe-esttime">30分</span>
                   </div>
                 </div>
-                <div class="recipe-canvas-wrapper">
-                  <canvas id="recipe-5"></canvas>
+                <div class="recipe-canvas-wrapper"><canvas id="recipe-5"></canvas></div>
+              </a>
+            </div>
+
+            <div class="recipe">
+              <a href="./detail.html">
+                <div class="recipe-image-wrapper"><img alt="ステーキ" src="../../../asset/img/sample_food.jpg"></div>
+                <div class="recipe-name-wrapper"><span class="recipe-name">肉ステーキ</span></div>
+                <div class="recipe-info-wrapper">
+                  <div class="recipe-materials-wrapper">
+                    <span class="recipe-materials-label">材料</span>
+                    <span class="recipe-materials">肉、塩、胡椒</span>
+                  </div>
+                  <div class="recipe-esttime-wrapper">
+                    <span class="recipe-esttime-label">時間</span>
+                    <span class="recipe-esttime">30分</span>
+                  </div>
                 </div>
+                <div class="recipe-canvas-wrapper"><canvas id="recipe-5"></canvas></div>
               </a>
             </div>
             <div class="recipe">
               <a href="./detail.html">
-                <div class="recipe-image-wrapper">
-                  <img alt="ステーキ" src="../../../asset/img/sample_food.jpg">
-                </div>
-                <div class="recipe-name-wrapper">
-                  <label class="recipe-name">肉ステーキ</label>
-                </div>
+                <div class="recipe-image-wrapper"><img alt="ステーキ" src="../../../asset/img/sample_food.jpg"></div>
+                <div class="recipe-name-wrapper"><span class="recipe-name">肉ステーキ</span></div>
                 <div class="recipe-info-wrapper">
                   <div class="recipe-materials-wrapper">
-                    <label class="recipe-materials-label">材料</label>
-                    <span class="recipe-materials">肉、塩、胡椒、じゃがいも、にんじん、なんとか、かんとか</span>
-                  </div>
-                  <div class="recipe-esttime-wrapper">
-                    <label class="recipe-esttime-label">時間</label>
-                    <span class="recipe-esttime">30分</span>
-                  </div>
-                </div>
-                <div class="recipe-canvas-wrapper">
-                  <canvas id="recipe-5"></canvas>
-                </div>
-              </a>
-            </div>
-            <div class="recipe">
-              <a href="./detail.html">
-                <div class="recipe-image-wrapper">
-                  <img alt="ステーキ" src="../../../asset/img/sample_food.jpg">
-                </div>
-                <div class="recipe-name-wrapper">
-                  <label class="recipe-name">肉ステーキ</label>
-                </div>
-                <div class="recipe-info-wrapper">
-                  <div class="recipe-materials-wrapper">
-                    <label class="recipe-materials-label">材料</label>
+                    <span class="recipe-materials-label">材料</span>
                     <span class="recipe-materials">肉、塩、胡椒</span>
                   </div>
                   <div class="recipe-esttime-wrapper">
-                    <label class="recipe-esttime-label">時間</label>
+                    <span class="recipe-esttime-label">時間</span>
                     <span class="recipe-esttime">30分</span>
                   </div>
                 </div>
-                <div class="recipe-canvas-wrapper">
-                  <canvas id="recipe-5"></canvas>
-                </div>
+                <div class="recipe-canvas-wrapper"><canvas id="recipe-5"></canvas></div>
               </a>
             </div>
           </section>
@@ -184,12 +134,12 @@
 
       <section id="sidebar">
         <aside>
-          <label>栄養バランス表</label>
+          <h2>栄養バランス表</h2>
           <canvas class="sidebar-graph"></canvas>
           <a href="../../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
         </aside>
         <aside>
-          <label>広告</label>
+          <h2>広告</h2>
           <img alt="広告" src="../../../asset/img/ad.jpg">
         </aside>
       </section>

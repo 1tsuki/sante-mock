@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="UTF-8">
     <title>santé</title>
+
     <link href="../../../asset/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../../../asset/css/user.log.monthly.css" rel="stylesheet" type="text/css">
-    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+
     <script type="text/javascript" src="../../../asset/js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../../../asset/js/pieGraph.js"></script>
     <script type="text/javascript">
@@ -23,55 +25,38 @@
     </script>
   </head>
 
+  <body>
+
     <header>
       <section id="header">
         <div class="header-inner">
           <div class="header-logo">
             <a href="">santé</a><p>-自炊を楽しむすべての人に、手軽で健康的な料理生活を-</p>
           </div>
-          <div class="header-control">
+          <nav class="header-control">
             <ul>
-              <li>
-                <a href="../log/monthly.html">
-                  <i></i>
-                  調理履歴
-                </a>
-              </li>
-              <li>
-                <a href="../recipe/favorite.html">
-                  <i></i>
-                  お気に入り
-                </a>
-              </li>
-              <li>
-                <a href="../../howto.html">
-                  <i></i>
-                  つかいかた
-                </a>
-              </li>
+              <li><a href="../log/monthly.html"><i></i>調理履歴</a></li>
+              <li><a href="../recipe/favorite.html"><i></i>お気に入り</a></li>
+              <li><a href="../../knowledge/nutrients.html"><i></i>栄養知識</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </section>
       <div class="header-dummy"></div>
     </header>
 
     <div id="wrapper">
-      <div id="content">
+      <section id="content">
 
         <section class="calendar">
           <h1>食事履歴</h1>
+
           <aside class="calendar-control">
-            <div class="calendar-control-last-month">
-              <span><a href="#" class="btn btn-primary">前月</a></span>
-            </div>
-            <div class="calendar-info">
-              <span>2013年5月</span>
-            </div>
-            <div class="calendar-control-next-month">
-              <span><a href="#" class="btn btn-primary">次月</a></span>
-            </div>
+            <div class="calendar-control-last-month"><span><a href="#" class="btn btn-primary">前月</a></span></div>
+            <div class="calendar-info"><span>2013年5月</span></div>
+            <div class="calendar-control-next-month"><span><a href="#" class="btn btn-primary">次月</a></span></div>
           </aside>
+
           <section class="calendar-container">
             <div class="calendar-header">
               <div class="calendar-weekday"><span>日</span></div>
@@ -84,136 +69,72 @@
             </div>
             <div class="calendar-row">
               <div class="calendar-day other-month">
-                <a href="./daily.html">29</a>
-                <ul>
-                  <li>自炊</li>
-                  <li>外食</li>
-                  <li>外食</li>
-                </ul>
+                <a href="./daily.html">
+                  <span>29</span>
+                  <ul>
+                    <li>たこや…</li>
+                    <li>外食</li>
+                    <li>外食</li>
+                  </ul>
+                </a>
               </div>
-              <div class="calendar-day other-month">
-                <a href="./daily.html">30</a>
-              </div>
-              <div class="calendar-day other-month">
-                <a href="./daily.html">31</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">1</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">2</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">3</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">4</a>
-              </div>
+              <div class="calendar-day other-month"><a href="./daily.html">30</a></div>
+              <div class="calendar-day other-month"><a href="./daily.html">31</a></div>
+              <div class="calendar-day cooked"><a href="./daily.html">1</a></div>
+              <div class="calendar-day cooked"><a href="./daily.html">2</a></div>
+              <div class="calendar-day cooked"><a href="./daily.html">3</a></div>
+              <div class="calendar-day cooked"><a href="./daily.html">4</a></div>
             </div>
             <div class="calendar-row">
-              <div class="calendar-day">
-                <a href="./daily.html">5</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">6</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">7</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">8</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">9</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">10</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">11</a>
-              </div>
+              <div class="calendar-day not-cooked"><a href="./daily.html">5</a></div>
+              <div class="calendar-day cooked"><a href="./daily.html">6</a></div>
+              <div class="calendar-day not-cooked"><a href="./daily.html">7</a></div>
+              <div class="calendar-day cooked"><a href="./daily.html">8</a></div>
+              <div class="calendar-day not-cooked"><a href="./daily.html">9</a></div>
+              <div class="calendar-day"><a href="./daily.html">10</a></div>
+              <div class="calendar-day"><a href="./daily.html">11</a></div>
             </div>
             <div class="calendar-row">
-              <div class="calendar-day">
-                <a href="./daily.html">12</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">13</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">14</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">15</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">16</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">17</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">18</a>
-              </div>
+              <div class="calendar-day"><a href="./daily.html">12</a></div>
+              <div class="calendar-day"><a href="./daily.html">13</a></div>
+              <div class="calendar-day"><a href="./daily.html">14</a></div>
+              <div class="calendar-day"><a href="./daily.html">15</a></div>
+              <div class="calendar-day"><a href="./daily.html">16</a></div>
+              <div class="calendar-day"><a href="./daily.html">17</a></div>
+              <div class="calendar-day"><a href="./daily.html">18</a></div>
             </div>
             <div class="calendar-row">
-              <div class="calendar-day">
-                <a href="./daily.html">19</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">20</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">21</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">22</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">23</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">24</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">25</a>
-              </div>
+              <div class="calendar-day"><a href="./daily.html">19</a></div>
+              <div class="calendar-day"><a href="./daily.html">20</a></div>
+              <div class="calendar-day"><a href="./daily.html">21</a></div>
+              <div class="calendar-day"><a href="./daily.html">22</a></div>
+              <div class="calendar-day"><a href="./daily.html">23</a></div>
+              <div class="calendar-day"><a href="./daily.html">24</a></div>
+              <div class="calendar-day"><a href="./daily.html">25</a></div>
             </div>
             <div class="calendar-row">
-              <div class="calendar-day">
-                <a href="./daily.html">26</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">27</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">28</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">29</a>
-              </div>
-              <div class="calendar-day">
-                <a href="./daily.html">30</a>
-              </div>
-              <div class="calendar-day other-month">
-                <a href="./daily.html">1</a>
-              </div>
-              <div class="calendar-day other-month">
-                <a href="./daily.html">2</a>
-              </div>
+              <div class="calendar-day"><a href="./daily.html">26</a></div>
+              <div class="calendar-day"><a href="./daily.html">27</a></div>
+              <div class="calendar-day"><a href="./daily.html">28</a></div>
+              <div class="calendar-day"><a href="./daily.html">29</a></div>
+              <div class="calendar-day"><a href="./daily.html">30</a></div>
+              <div class="calendar-day other-month"><a href="./daily.html">1</a></div>
+              <div class="calendar-day other-month"><a href="./daily.html">2</a></div>
             </div>
           </section>
+
+          <p>自炊した日は<span class="green">緑色</span>に、自炊をしなかった日は<span class="red">赤色</span>に表示されています。</p>
         </section>
-      </div>
+      </section>
 
       <section id="sidebar">
         <aside>
-          <label>栄養バランス表</label>
+          <h2>栄養バランス表</h2>
           <canvas class="sidebar-graph"></canvas>
           <a href="../../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
         </aside>
         <aside>
-          <label>広告</label>
+          <h2>広告</h2>
           <img alt="広告" src="../../../asset/img/ad.jpg">
         </aside>
       </section>
