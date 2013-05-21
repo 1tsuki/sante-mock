@@ -7,7 +7,7 @@
 @import './settings.less';
 
 body {
-	min-width: 1024px;
+	min-width: 1200px;
 	width: 100%;
 	margin: 0;
 	background-color: @background-color;
@@ -40,12 +40,12 @@ header {
 			.background-gradient(darken(@main-color, 80%));
 
 			.header-inner {
-				.column(11);
-				.push(0.5);
+				.column(10);
+				.push(1);
 
 				.header-logout {
-					.column(2);
-					.push(10);
+					.column(3);
+					.push(9);
 
 					a {
 						float: right;
@@ -68,8 +68,8 @@ header {
 			background-color: @main-color;
 
 			.header-inner {
-				.column(11);
-				.push(0.5);
+				.column(10);
+				.push(1);
 
 				.header-logo {
 					.column(6);
@@ -134,8 +134,8 @@ header {
 }
 
 #wrapper {
-	.column(11);
-	.push(0.5);
+	.column(10);
+	.push(1);
 	position: relative;
 
 	#content {

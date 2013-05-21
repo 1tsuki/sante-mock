@@ -10901,7 +10901,7 @@ fieldset {
   float: right;
 }
 body {
-  min-width: 1024px;
+  min-width: 1200px;
   width: 100%;
   margin: 0;
   background-color: #f0f0e0;
@@ -11309,10 +11309,10 @@ header #header #header-upper .header-inner {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
 }
 header #header #header-upper .header-inner:after {
   clear: both;
@@ -11496,10 +11496,10 @@ header #header #header-upper .header-inner .header-logout {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 15.476190476190476%;
+  width: 23.809523809523807%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 83.92857142857144%;
+  margin-left: 75.5952380952381%;
 }
 header #header #header-upper .header-inner .header-logout:after {
   clear: both;
@@ -11698,10 +11698,10 @@ header #header #header-lower .header-inner {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
 }
 header #header #header-lower .header-inner:after {
   clear: both;
@@ -12481,10 +12481,10 @@ header #header #header-lower .header-inner .header-control ul li:after {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
   position: relative;
 }
 #wrapper:after {
@@ -14164,18 +14164,18 @@ h3 {
 #wrapper .status .user-info .profile .profile-img {
   position: absolute;
   bottom: 0px;
-  left: 10px;
+  left: 5px;
   padding: 5px 5px 0 5px;
   background-color: #fefefe;
 }
 #wrapper .status .user-info .profile .profile-img img {
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
 }
 #wrapper .status .user-info .profile .profile-name {
   position: absolute;
   bottom: 0px;
-  left: 115px;
+  left: 100px;
   font-size: 20px;
 }
 #wrapper .status .user-info .counter {
@@ -14191,13 +14191,13 @@ h3 {
   -moz-opacity: 0.8;
   opacity: 0.8;
   margin: 0 5px 0 0;
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
   display: inline-block;
   background-color: #e5e5e5;
 }
 #wrapper .status .user-info .counter dl dt {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -15181,6 +15181,10 @@ h3 {
 }
 #wrapper .recipes-wrapper .recipes .recipe-main h3 {
   font-size: 20px;
+}
+#wrapper .recipes-wrapper .recipes .recipe-main img {
+  height: 100%;
+  width: auto;
 }
 #wrapper .recipes-wrapper p {
   -moz-box-sizing: border-box;

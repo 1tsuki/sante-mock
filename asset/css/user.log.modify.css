@@ -10901,7 +10901,7 @@ fieldset {
   float: right;
 }
 body {
-  min-width: 1024px;
+  min-width: 1200px;
   width: 100%;
   margin: 0;
   background-color: #f0f0e0;
@@ -11309,10 +11309,10 @@ header #header #header-upper .header-inner {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
 }
 header #header #header-upper .header-inner:after {
   clear: both;
@@ -11496,10 +11496,10 @@ header #header #header-upper .header-inner .header-logout {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 15.476190476190476%;
+  width: 23.809523809523807%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 83.92857142857144%;
+  margin-left: 75.5952380952381%;
 }
 header #header #header-upper .header-inner .header-logout:after {
   clear: both;
@@ -11698,10 +11698,10 @@ header #header #header-lower .header-inner {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
 }
 header #header #header-lower .header-inner:after {
   clear: both;
@@ -12481,10 +12481,10 @@ header #header #header-lower .header-inner .header-control ul li:after {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
   position: relative;
 }
 #wrapper:after {
@@ -14169,8 +14169,12 @@ h2 {
 .modify .fields-wrapper .fields:after {
   clear: both;
 }
-.modify .fields-wrapper .fields input:after {
-  content: "g";
+.modify .fields-wrapper .fields input {
+  width: 80%;
+}
+.modify .fields-wrapper .fields span {
+  margin-left: 5px;
+  text-align: center;
 }
 .modify .fields-wrapper .fields .submit {
   float: right;

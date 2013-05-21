@@ -10901,7 +10901,7 @@ fieldset {
   float: right;
 }
 body {
-  min-width: 1024px;
+  min-width: 1200px;
   width: 100%;
   margin: 0;
   background-color: #f0f0e0;
@@ -11309,10 +11309,10 @@ header #header #header-upper .header-inner {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
 }
 header #header #header-upper .header-inner:after {
   clear: both;
@@ -11496,10 +11496,10 @@ header #header #header-upper .header-inner .header-logout {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 15.476190476190476%;
+  width: 23.809523809523807%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 83.92857142857144%;
+  margin-left: 75.5952380952381%;
 }
 header #header #header-upper .header-inner .header-logout:after {
   clear: both;
@@ -11698,10 +11698,10 @@ header #header #header-lower .header-inner {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
 }
 header #header #header-lower .header-inner:after {
   clear: both;
@@ -12481,10 +12481,10 @@ header #header #header-lower .header-inner .header-control ul li:after {
   box-sizing: border-box;
   display: inline;
   float: left;
-  width: 90.47619047619048%;
+  width: 82.14285714285714%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  margin-left: 4.761904761904761%;
+  margin-left: 8.928571428571427%;
   position: relative;
 }
 #wrapper:after {
@@ -14924,7 +14924,7 @@ h1 {
   width: 98.80952380952381%;
   margin: 0 0.5952380952380952%;
   *zoom: 1;
-  line-height: 50px;
+  margin: 10px 0;
 }
 .recommended-recipes .control .materials:after {
   clear: both;
@@ -15102,12 +15102,378 @@ h1 {
 .recommended-recipes .control .materials:after {
   clear: both;
 }
-.recommended-recipes .control .materials label {
+.recommended-recipes .control .materials > span {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 23.809523809523807%;
+  margin: 0 0.5952380952380952%;
+  *zoom: 1;
   font-weight: bold;
 }
-.recommended-recipes .control .materials .material {
-  display: inline-block;
-  margin-left: 15px;
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:before,
+.recommended-recipes .control .materials > span:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials > span:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 73.80952380952381%;
+  margin: 0 0.5952380952380952%;
+  *zoom: 1;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:before,
+.recommended-recipes .control .materials .material-list:after {
+  content: "";
+  display: table;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
+}
+.recommended-recipes .control .materials .material-list:after {
+  clear: both;
 }
 .recommended-recipes .recipes {
   -moz-box-sizing: border-box;
