@@ -14207,12 +14207,12 @@ h3 {
   padding: 0;
   position: absolute;
   top: 90px;
-  left: 20px;
+  left: 10px;
   list-style: none;
   color: #ebe6d0;
 }
 #wrapper .status .status-contents .calendar ul li {
-  font-size: 20px;
+  font-size: 30px;
 }
 #wrapper .status .status-contents .calendar ul .cooked {
   color: #000000;
