@@ -11,106 +11,121 @@ h3 {
 
 #wrapper {
 	.status {
-		.column(8);
-		height: 230px;
+		.column(12);
+		padding: 0;
+		height: 450px;
 		margin-bottom: 20px;
 		position: relative;
 
-		.cover {
-			.column(12);
-			height: 180px;
-			position: relative;
-			overflow:hidden;
+		.status-nav {
+			.column(1.5);
+			margin-left: 0px;
+			ul {
+				margin: 0 0 0 -8px;
+				padding: 0;
+				li {
+					height: 90px;
+					display: block;
+					list-style: none;
+					text-align: center;
+					line-height: 90px;
 
-			.cover-img {
-				width: 100%;
+					a {
+						display: block;
+						width: 100%;
+						height: 100%;
+						color: white;
+						text-decoration: none;
+						font-size: @font-large;
+
+						border-top-left-radius: 8px;
+						-webkit-border-top-left-radius: 8px;
+						-moz-border-radius-topleft: 8px;
+						border-bottom-left-radius: 8px;
+						-webkit-border-bottom-left-radius: 8px;
+						-moz-border-radius-bottomleft: 8px;
+						.background-gradient(@sub-color);
+						text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+						border-color: darken(@sub-color, 6%) darken(@sub-color, 6%) darken(@sub-color, 12%);
+						border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+						&:hover {
+							.background-gradient(darken(@sub-color, 10%));
+						}
+					}
+				}
 			}
 		}
 
-		.user-info {
-			.column(12);
+		.status-contents {
+			.column(10.5);
 			position: relative;
-			height: 35px;
+			height: 450px;
 
-			.profile {
-				position: absolute;
-				left: 0px;
-				bottom: 0px;
-
-
-				.profile-img {
+			.calendar{
+				.today {
 					position: absolute;
-					bottom: 0px;
-					left: 5px;
-					padding: 5px 5px 0 5px;
-					background-color: @main-color;
-					img {
-						height: 80px;
-						width: 80px;
-					}
+					font-size: @font-huge;
+					top: 10px;
+					left: 10px;
 				}
 
-				.profile-name {
+				.title {
 					position: absolute;
-					bottom: 0px;
-					left: 100px;
+					top: 60px;
+					left: 10px;
 					font-size: @font-large;
 				}
-			}
 
-			.counter {
-				position: absolute;
-				right: 0px;
-				bottom: 0px;
+				ul {
+					margin: 0;
+					padding: 0;
+					position: absolute;
+					top: 90px;
+					left: 20px;
+					list-style: none;
+					color: @gray;
 
-				dl {
-					.round(50%);
-					.opacity(80);
-					margin: 0 5px 0 0;
-					height: 80px;
-					width: 80px;
-					display: inline-block;
-					background-color: darken(@main-color, 10%);
-
-					dt {
-						margin-top: 15px;
+					li {
 						font-size: @font-large;
-						font-weight: bold;
-						text-align: center;
-						display: block;
 					}
 
-					dd {
-						font-weight: bold;
-						margin: 0;
-						text-align: center;
-						display: block;
+					.cooked {
+						color: #000000;
 					}
 				}
 			}
 
-		}
-	}
+			.status-counter {
+				position: absolute;
+				right: 5px;
+				top: 5px;
+				width: 150px;
 
-	.graph {
-		.column(4);
-		height: 230px;
-		margin-bottom: 20px;
+				dl {
+					border-bottom: 1px solid @border-color;
+					dt {
+					}
+					dd {
+						font-size: @font-large;
+						text-align: center;
+					}
+				}
+			}
 
-		canvas {
-			display: block;
-			padding: 5px;
-			.border-box;
-			margin: 0 auto;
-			height: 140px;
-			width: 140px;
-		}
+			.pie-graph {
+				display: block;
+				margin: 25px auto;
+				height: 300px;
+				width: 300px;
+			}
 
-		a {
-			display: block;
-			padding: 5px;
-			.border-box;
-			width: 100%;
+			.bar-graph {
+				position: absolute;
+				bottom: 0px;
+				width: 100%;
+				height: 100px;
+			}
 		}
 	}
 

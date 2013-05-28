@@ -19,7 +19,7 @@
 
         pieGraph.interface.init(".pie-graph", params, items);
         pieGraph.interface.setDrawInfo(false);
-        pieGraph.interface.setSize(190,190);
+        pieGraph.interface.setSize($('.pie-graph').width(), $('.pie-graph').height());
         pieGraph.interface.setAuxlineNum(10);
         pieGraph.interface.draw();
 
@@ -65,25 +65,39 @@
 
     <div id="wrapper">
       <section class="status">
-        <div class="cover"><img alt="カバー画像" class="cover-img" src="../../asset/img/flower.png"></div>
-        <div class="user-info">
-          <div class="profile">
-            <div class="profile-img"><img alt="プロフィール画像" src="../../asset/img/profile.jpg"></div>
-            <div class="profile-name"><span>Username</span></div>
+        <nav class="status-nav">
+          <ul>
+            <li><a href="#">今週</a></li>
+            <li><a href="#">~5/24</a></li>
+            <li><a href="#">~5/17</a></li>
+            <li><a href="#">~5/10</a></li>
+            <li><a href="#">~5/3</a></li>
+          </ul>
+        </nav>
+        <div class="status-contents">
+          <div class="calendar">
+            <span class="today">MAY 27</span>
+            <span class="title">自炊履歴</span>
+            <ul>
+              <li class="cooked">Sun</li>
+              <li>Mon</li>
+              <li class="cooked">Tue</li>
+              <li class="cooked">Wed</li>
+              <li>Thu</li>
+              <li class="cooked">Fri</li>
+              <li>Sat</li>
+            </ul>
+
           </div>
-          <div class="counter">
-            <dl><dt>1024回</dt><dd>自炊回数</dd></dl>
-            <dl><dt>5日</dt><dd>連続日数</dd></dl>
-            <dl><dt>80%</dt><dd>バランス</dd></dl>
+          <div class="status-counter">
+            <dl><dt>自炊回数</dt><dd>1024回</dd></dl>
+            <dl><dt>連続自炊日数</dt><dd>5日</dd></dl>
+            <dl><dt>栄養バランス</dt><dd>80%</dd></dl>
           </div>
+          <canvas class="pie-graph"></canvas>
+          <canvas class="bar-graph"></canvas>
         </div>
       </section>
-
-      <aside class="graph">
-        <h2>あなたの栄養状態</h2>
-        <canvas class="pie-graph"></canvas>
-        <a href="../knowledge/nutrients.html" class="btn btn-info">栄養状態グラフについて</a>
-      </aside>
 
       <section class="recipes-wrapper">
         <h2>あなたに合わせたおすすめレシピ</h2>
